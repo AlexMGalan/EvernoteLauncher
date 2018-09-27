@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetHost;
@@ -29,7 +29,7 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.widget.Toast;
 
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.util.ArrayList;
 

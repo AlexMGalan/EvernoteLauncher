@@ -7,9 +7,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.android.launcher3.Alarm;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.OnAlarmListener;
+import com.acacias.enlauncher.Alarm;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.OnAlarmListener;
 import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
 import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.i;
 import com.google.android.apps.nexuslauncher.utils.ProtoStore;

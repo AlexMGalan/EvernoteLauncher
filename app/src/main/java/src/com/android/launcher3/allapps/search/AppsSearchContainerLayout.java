@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps.search;
+package src.com.acacias.enlauncher.allapps.search;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -32,19 +32,19 @@ import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.FrameLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.allapps.AllAppsGridAdapter;
-import com.android.launcher3.allapps.AllAppsRecyclerView;
-import com.android.launcher3.allapps.AlphabeticalAppsList;
-import com.android.launcher3.allapps.SearchUiManager;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.discovery.AppDiscoveryItem;
-import com.android.launcher3.discovery.AppDiscoveryUpdateState;
-import com.android.launcher3.graphics.TintedDrawableSpan;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.ExtendedEditText;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.allapps.AllAppsGridAdapter;
+import com.acacias.enlauncher.allapps.AllAppsRecyclerView;
+import com.acacias.enlauncher.allapps.AlphabeticalAppsList;
+import com.acacias.enlauncher.allapps.SearchUiManager;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.discovery.AppDiscoveryItem;
+import com.acacias.enlauncher.discovery.AppDiscoveryUpdateState;
+import com.acacias.enlauncher.graphics.TintedDrawableSpan;
+import com.acacias.enlauncher.util.ComponentKey;
 import java.util.ArrayList;
 
 /**

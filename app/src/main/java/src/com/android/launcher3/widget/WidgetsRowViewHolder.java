@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.ViewGroup;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.R;
 
 public class WidgetsRowViewHolder extends ViewHolder {
 

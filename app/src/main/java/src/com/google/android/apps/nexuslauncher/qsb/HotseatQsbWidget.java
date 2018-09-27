@@ -25,12 +25,12 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.dragndrop.DragLayer;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.dragndrop.DragLayer;
 
 public class HotseatQsbWidget extends AbstractQsbLayout {
     private boolean mIsDefaultLiveWallpaper;

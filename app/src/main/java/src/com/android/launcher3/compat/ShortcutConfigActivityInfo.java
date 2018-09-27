@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -32,10 +32,10 @@ import android.os.UserHandle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutInfo;
 
 /**
  * Wrapper class for representing a shortcut configure activity.

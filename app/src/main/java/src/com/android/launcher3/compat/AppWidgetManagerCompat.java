@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -24,10 +24,10 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.HashMap;
 import java.util.List;

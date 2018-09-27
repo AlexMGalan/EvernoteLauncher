@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,7 +24,7 @@ import android.view.MotionEvent;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.android.launcher3.views.RecyclerViewFastScroller;
+import com.acacias.enlauncher.views.RecyclerViewFastScroller;
 
 
 /**

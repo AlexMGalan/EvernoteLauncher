@@ -11,13 +11,13 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewParent;
 
-import com.android.launcher3.AppFilter;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ComponentKeyMapper;
+import com.acacias.enlauncher.AppFilter;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.allapps.AllAppsContainerView;
+import com.acacias.enlauncher.logging.UserEventDispatcher;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
 
 import java.util.ArrayList;
 import java.util.Collections;

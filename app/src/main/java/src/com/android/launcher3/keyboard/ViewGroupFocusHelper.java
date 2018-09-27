@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.keyboard;
+package src.com.acacias.enlauncher.keyboard;
 
 import android.graphics.Rect;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
-import com.android.launcher3.PagedView;
+import com.acacias.enlauncher.PagedView;
 
 /**
  * {@link FocusIndicatorHelper} for a generic view group.

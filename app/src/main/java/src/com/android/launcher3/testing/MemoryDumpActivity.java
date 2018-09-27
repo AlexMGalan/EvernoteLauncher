@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.testing;
+package src.com.acacias.enlauncher.testing;
 
 import android.app.Activity;
 import android.content.ComponentName;

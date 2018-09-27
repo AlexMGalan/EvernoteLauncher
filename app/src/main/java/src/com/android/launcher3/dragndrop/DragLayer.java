@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -41,29 +41,29 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DropTargetBar;
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.InsettableFrameLayout;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetHostView;
-import com.android.launcher3.PinchToOverviewListener;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dynamicui.WallpaperColorInfo;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.logging.LoggerUtils;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.TouchController;
-import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.AppWidgetResizeFrame;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.DropTargetBar;
+import com.acacias.enlauncher.ExtendedEditText;
+import com.acacias.enlauncher.InsettableFrameLayout;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppWidgetHostView;
+import com.acacias.enlauncher.PinchToOverviewListener;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutAndWidgetContainer;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.allapps.AllAppsTransitionController;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dynamicui.WallpaperColorInfo;
+import com.acacias.enlauncher.folder.Folder;
+import com.acacias.enlauncher.folder.FolderIcon;
+import com.acacias.enlauncher.keyboard.ViewGroupFocusHelper;
+import com.acacias.enlauncher.logging.LoggerUtils;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.util.TouchController;
+import com.acacias.enlauncher.widget.WidgetsBottomSheet;
 
 import java.util.ArrayList;
 

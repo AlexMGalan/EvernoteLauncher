@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -22,7 +22,7 @@ import android.graphics.Paint.FontMetricsInt;
 import android.graphics.drawable.Drawable;
 import android.text.style.DynamicDrawableSpan;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * {@link DynamicDrawableSpan} which draws a drawable tinted with the current paint color.

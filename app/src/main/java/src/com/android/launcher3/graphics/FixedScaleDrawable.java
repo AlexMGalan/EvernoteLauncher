@@ -1,4 +1,4 @@
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.annotation.TargetApi;
 import android.content.res.Resources;

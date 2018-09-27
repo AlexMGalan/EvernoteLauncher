@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -29,14 +29,14 @@ import android.view.ViewPropertyAnimator;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.SimpleOnStylusPressListener;
-import com.android.launcher3.StylusEventHelper;
-import com.android.launcher3.WidgetPreviewLoader;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.model.WidgetItem;
+import com.acacias.enlauncher.BaseActivity;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.SimpleOnStylusPressListener;
+import com.acacias.enlauncher.StylusEventHelper;
+import com.acacias.enlauncher.WidgetPreviewLoader;
+import com.acacias.enlauncher.graphics.DrawableFactory;
+import com.acacias.enlauncher.model.WidgetItem;
 
 /**
  * Represents the individual cell of the widget inside the widget tray. The preview is drawn

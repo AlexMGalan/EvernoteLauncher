@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -24,28 +24,28 @@ import android.os.UserHandle;
 import android.util.ArrayMap;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.SessionCommitReceiver;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.util.FlagOp;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.AllAppsList;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.InstallShortcutReceiver;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherModel.CallbackTask;
+import com.acacias.enlauncher.LauncherModel.Callbacks;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.SessionCommitReceiver;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.util.FlagOp;
+import com.acacias.enlauncher.util.ItemInfoMatcher;
+import com.acacias.enlauncher.util.LongArrayMap;
+import com.acacias.enlauncher.util.PackageManagerHelper;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Arrays;

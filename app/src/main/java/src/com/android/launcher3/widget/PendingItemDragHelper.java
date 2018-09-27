@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -26,18 +26,18 @@ import android.os.Build;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.LivePreviewWidgetCell;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.graphics.HolographicOutlineHelper;
-import com.android.launcher3.graphics.LauncherIcons;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.DragSource;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.PendingAddItemInfo;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Workspace;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.dragndrop.LivePreviewWidgetCell;
+import com.acacias.enlauncher.graphics.DragPreviewProvider;
+import com.acacias.enlauncher.graphics.HolographicOutlineHelper;
+import com.acacias.enlauncher.graphics.LauncherIcons;
 
 /**
  * Extension of {@link DragPreviewProvider} with logic specific to pending widgets/shortcuts

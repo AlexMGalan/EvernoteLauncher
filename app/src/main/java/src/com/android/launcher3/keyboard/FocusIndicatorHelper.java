@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.keyboard;
+package src.com.acacias.enlauncher.keyboard;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,7 +31,7 @@ import android.util.Property;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 
 /**
  * A helper class to draw background of a focused view.

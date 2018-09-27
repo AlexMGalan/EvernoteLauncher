@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 /**
  * Copyright (C) 2015 The Android Open Source Project
@@ -21,7 +21,7 @@ import android.content.Context;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.compat.UserManagerCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
 
 import java.util.Arrays;
 

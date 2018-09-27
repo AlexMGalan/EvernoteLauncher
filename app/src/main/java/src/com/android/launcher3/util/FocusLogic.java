@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.ShortcutAndWidgetContainer;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.util.Arrays;
 

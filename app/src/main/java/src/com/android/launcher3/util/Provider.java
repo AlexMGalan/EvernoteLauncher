@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 /**
  * Utility class to allow lazy initialization of objects.

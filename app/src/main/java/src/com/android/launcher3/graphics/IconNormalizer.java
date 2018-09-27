@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -32,8 +32,8 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.Utilities;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.nio.ByteBuffer;

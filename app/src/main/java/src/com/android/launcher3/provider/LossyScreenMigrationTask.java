@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.provider;
+package src.com.acacias.enlauncher.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -22,12 +22,12 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Point;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.model.GridSizeMigrationTask;
-import com.android.launcher3.util.LongArrayMap;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace;
+import com.acacias.enlauncher.model.GridSizeMigrationTask;
+import com.acacias.enlauncher.util.LongArrayMap;
 
 import java.util.ArrayList;
 

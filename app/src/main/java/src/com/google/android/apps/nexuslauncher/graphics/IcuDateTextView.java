@@ -10,8 +10,8 @@ import android.icu.text.DisplayContext;
 import android.text.format.DateUtils;
 import android.util.AttributeSet;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
 
 import java.util.Locale;
 

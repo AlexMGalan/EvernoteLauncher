@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dynamicui;
+package src.com.acacias.enlauncher.dynamicui;
 
 import android.annotation.TargetApi;
 import android.app.WallpaperManager;
@@ -33,11 +33,11 @@ import android.os.ParcelFileDescriptor;
 import android.support.v7.graphics.Palette;
 import android.util.Log;
 
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.LauncherProvider;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.io.IOException;
 

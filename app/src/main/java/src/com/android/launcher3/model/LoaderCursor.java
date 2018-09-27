@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -32,23 +32,23 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.LongSparseArray;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.util.ContentWriter;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.logging.FileLog;
+import com.acacias.enlauncher.util.ContentWriter;
+import com.acacias.enlauncher.util.GridOccupancy;
+import com.acacias.enlauncher.util.LongArrayMap;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 import java.net.URISyntaxException;
 import java.security.InvalidParameterException;

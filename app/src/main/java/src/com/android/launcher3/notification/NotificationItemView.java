@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.notification;
+package src.com.acacias.enlauncher.notification;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -29,17 +29,17 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PropertyResetListener;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
-import com.android.launcher3.popup.PopupItemView;
-import com.android.launcher3.touch.SwipeDetector;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.anim.PropertyResetListener;
+import com.acacias.enlauncher.anim.RoundedRectRevealOutlineProvider;
+import com.acacias.enlauncher.graphics.IconPalette;
+import com.acacias.enlauncher.logging.UserEventDispatcher.LogContainerProvider;
+import com.acacias.enlauncher.popup.PopupItemView;
+import com.acacias.enlauncher.touch.SwipeDetector;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto;
+import com.acacias.enlauncher.util.Themes;
 
 import java.util.List;
 

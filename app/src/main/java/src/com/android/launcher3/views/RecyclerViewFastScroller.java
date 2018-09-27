@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.views;
+package src.com.acacias.enlauncher.views;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -30,12 +30,12 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.TextView;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.FastScrollThumbDrawable;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.BaseRecyclerView;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.FastScrollThumbDrawable;
+import com.acacias.enlauncher.util.Themes;
 
 /**
  * The track and scrollbar that shows when you scroll the list.

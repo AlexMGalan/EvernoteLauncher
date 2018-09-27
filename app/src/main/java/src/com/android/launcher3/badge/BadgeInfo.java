@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.badge;
+package src.com.acacias.enlauncher.badge;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,9 +24,9 @@ import android.graphics.Shader;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.notification.NotificationInfo;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.notification.NotificationInfo;
+import com.acacias.enlauncher.notification.NotificationKeyData;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

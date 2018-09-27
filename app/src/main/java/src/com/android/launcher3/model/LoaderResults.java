@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.os.Looper;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.MainThreadExecutor;
-import com.android.launcher3.PagedView;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LooperIdleLock;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.ViewOnDrawExecutor;
+import com.acacias.enlauncher.AllAppsList;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.LauncherModel.Callbacks;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.MainThreadExecutor;
+import com.acacias.enlauncher.PagedView;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.LooperIdleLock;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.ViewOnDrawExecutor;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -47,7 +47,7 @@ import java.util.Set;
 import java.util.concurrent.Executor;
 
 /**
- * Helper class to handle results of {@link com.android.launcher3.model.LoaderTask}.
+ * Helper class to handle results of {@link com.acacias.enlauncher.model.LoaderTask}.
  */
 public class LoaderResults {
 

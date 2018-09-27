@@ -4,11 +4,11 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Process;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.graphics.DrawableFactory;
+import com.acacias.enlauncher.FastBitmapDrawable;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.graphics.DrawableFactory;
 import com.google.android.apps.nexuslauncher.clock.DynamicClock;
 
 public class DynamicDrawableFactory extends DrawableFactory {

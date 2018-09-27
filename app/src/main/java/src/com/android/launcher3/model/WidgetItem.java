@@ -1,15 +1,15 @@
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo;
+import com.acacias.enlauncher.util.ComponentKey;
 
 import java.text.Collator;
 

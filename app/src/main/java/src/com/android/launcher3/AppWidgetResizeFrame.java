@@ -1,4 +1,4 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -17,10 +17,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.util.FocusLogic;
-import com.android.launcher3.util.TouchController;
+import com.acacias.enlauncher.accessibility.DragViewStateAnnouncer;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.util.FocusLogic;
+import com.acacias.enlauncher.util.TouchController;
 
 public class AppWidgetResizeFrame extends FrameLayout
         implements View.OnKeyListener, TouchController {

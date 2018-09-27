@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -30,14 +30,14 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVO;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.LooperExecutor;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVO;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.LooperExecutor;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

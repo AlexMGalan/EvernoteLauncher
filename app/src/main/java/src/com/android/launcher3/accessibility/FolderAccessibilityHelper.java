@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.accessibility;
+package src.com.acacias.enlauncher.accessibility;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.R;
-import com.android.launcher3.folder.FolderPagedView;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.folder.FolderPagedView;
 
 /**
  * Implementation of {@link DragAndDropAccessibilityDelegate} to support DnD in a folder.

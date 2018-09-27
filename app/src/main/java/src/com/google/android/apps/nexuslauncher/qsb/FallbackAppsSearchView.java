@@ -5,14 +5,14 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.allapps.AllAppsGridAdapter;
-import com.android.launcher3.allapps.AllAppsRecyclerView;
-import com.android.launcher3.allapps.AlphabeticalAppsList;
-import com.android.launcher3.allapps.search.AllAppsSearchBarController;
-import com.android.launcher3.discovery.AppDiscoveryItem;
-import com.android.launcher3.discovery.AppDiscoveryUpdateState;
+import com.acacias.enlauncher.ExtendedEditText;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.allapps.AllAppsGridAdapter;
+import com.acacias.enlauncher.allapps.AllAppsRecyclerView;
+import com.acacias.enlauncher.allapps.AlphabeticalAppsList;
+import com.acacias.enlauncher.allapps.search.AllAppsSearchBarController;
+import com.acacias.enlauncher.discovery.AppDiscoveryItem;
+import com.acacias.enlauncher.discovery.AppDiscoveryUpdateState;
 import com.google.android.apps.nexuslauncher.search.SearchThread;
 
 import java.util.ArrayList;

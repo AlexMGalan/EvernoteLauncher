@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.qsb;
+package src.com.acacias.enlauncher.qsb;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -34,13 +34,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.AppWidgetResizeFrame;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 /**
  * A frame layout which contains a QSB. This internally uses fragment to bind the view, which

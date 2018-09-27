@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.annotation.TargetApi;
 import android.app.ActivityOptions;
@@ -36,29 +36,29 @@ import android.view.View.DragShadowBuilder;
 import android.view.View.OnLongClickListener;
 import android.view.View.OnTouchListener;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetHost;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompatVO;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.WidgetHostViewLoader;
-import com.android.launcher3.widget.WidgetImageView;
+import com.acacias.enlauncher.BaseActivity;
+import com.acacias.enlauncher.InstallShortcutReceiver;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetHost;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.AppWidgetManagerCompat;
+import com.acacias.enlauncher.compat.LauncherAppsCompatVO;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Action;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.widget.PendingAddShortcutInfo;
+import com.acacias.enlauncher.widget.PendingAddWidgetInfo;
+import com.acacias.enlauncher.widget.WidgetHostViewLoader;
+import com.acacias.enlauncher.widget.WidgetImageView;
 
-import static com.android.launcher3.logging.LoggerUtils.newCommandAction;
-import static com.android.launcher3.logging.LoggerUtils.newContainerTarget;
-import static com.android.launcher3.logging.LoggerUtils.newItemTarget;
-import static com.android.launcher3.logging.LoggerUtils.newLauncherEvent;
+import static com.acacias.enlauncher.logging.LoggerUtils.newCommandAction;
+import static com.acacias.enlauncher.logging.LoggerUtils.newContainerTarget;
+import static com.acacias.enlauncher.logging.LoggerUtils.newItemTarget;
+import static com.acacias.enlauncher.logging.LoggerUtils.newLauncherEvent;
 
 @TargetApi(Build.VERSION_CODES.O)
 public class AddItemActivity extends BaseActivity implements OnLongClickListener, OnTouchListener {

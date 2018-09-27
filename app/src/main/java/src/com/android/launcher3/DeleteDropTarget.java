@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.folder.Folder;
 
 public class DeleteDropTarget extends ButtonDropTarget {
 

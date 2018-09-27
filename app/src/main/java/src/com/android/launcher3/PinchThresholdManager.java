@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 /**
  * Keeps track of when thresholds are passed during a pinch gesture,

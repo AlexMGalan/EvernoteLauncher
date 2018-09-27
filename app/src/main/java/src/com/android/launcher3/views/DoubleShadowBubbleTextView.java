@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.views;
+package src.com.acacias.enlauncher.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -25,8 +25,8 @@ import android.support.v4.graphics.ColorUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.R;
 
 /**
  * Extension of {@link BubbleTextView} which draws two shadows on the text (ambient and key shadows}

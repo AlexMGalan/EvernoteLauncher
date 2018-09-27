@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.os.SystemClock;
 
-import com.android.launcher3.FastBitmapDrawable;
+import com.acacias.enlauncher.FastBitmapDrawable;
 
 import java.util.TimeZone;
 

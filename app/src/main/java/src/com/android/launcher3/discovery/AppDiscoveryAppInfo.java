@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.discovery;
+package src.com.acacias.enlauncher.discovery;
 
 import android.content.ComponentName;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.ShortcutInfo;
 
 public class AppDiscoveryAppInfo extends AppInfo {
 

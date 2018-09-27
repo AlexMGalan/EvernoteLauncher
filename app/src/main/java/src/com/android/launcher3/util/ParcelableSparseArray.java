@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.os.Parcel;
 import android.os.Parcelable;

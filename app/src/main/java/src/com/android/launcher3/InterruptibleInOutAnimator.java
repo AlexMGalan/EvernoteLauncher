@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.view.View;
 
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.util.Thunk;
 
 /**
  * A convenience class for two-way animations, e.g. a fadeIn/fadeOut animation.

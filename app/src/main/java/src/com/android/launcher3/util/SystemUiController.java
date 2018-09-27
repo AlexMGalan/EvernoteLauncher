@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.view.View;
 import android.view.Window;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * Utility class to manage various window flags to control system UI.

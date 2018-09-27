@@ -1,8 +1,8 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.graphics.Rect;
 
-import com.android.launcher3.ItemInfo;
+import com.acacias.enlauncher.ItemInfo;
 
 /**
  * Utility object to manage the occupancy in a grid.

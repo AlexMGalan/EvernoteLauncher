@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.notification;
+package src.com.acacias.enlauncher.notification;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -31,10 +31,10 @@ import android.util.ArraySet;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.SettingsObserver;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.SettingsObserver;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,7 +42,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import static com.android.launcher3.SettingsActivity.NOTIFICATION_BADGING;
+import static com.acacias.enlauncher.SettingsActivity.NOTIFICATION_BADGING;
 
 /**
  * A {@link NotificationListenerService} that sends updates to its

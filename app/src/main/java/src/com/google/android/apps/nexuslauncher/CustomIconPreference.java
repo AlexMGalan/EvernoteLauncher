@@ -5,7 +5,7 @@ import android.content.Context;
 import android.preference.ListPreference;
 import android.util.AttributeSet;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 
 import java.util.HashMap;
 import java.util.Map;

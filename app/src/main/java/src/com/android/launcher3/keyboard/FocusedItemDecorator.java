@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.keyboard;
+package src.com.acacias.enlauncher.keyboard;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.logging;
+package src.com.acacias.enlauncher.logging;
 
 import android.util.ArrayMap;
 import android.util.SparseArray;
 import android.view.View;
 
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.InfoDropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.UninstallDropTarget;
-import com.android.launcher3.userevent.nano.LauncherLogExtensions.TargetExtension;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ItemType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.LauncherEvent;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
+import com.acacias.enlauncher.ButtonDropTarget;
+import com.acacias.enlauncher.DeleteDropTarget;
+import com.acacias.enlauncher.InfoDropTarget;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.UninstallDropTarget;
+import com.acacias.enlauncher.userevent.nano.LauncherLogExtensions.TargetExtension;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Action;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ControlType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ItemType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.LauncherEvent;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Target;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

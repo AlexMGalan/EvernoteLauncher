@@ -1,11 +1,11 @@
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.content.ComponentName;
 import android.content.Intent;
 import android.os.UserHandle;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.util.ComponentKey;
 
 /**
  * A key that uniquely identifies a shortcut using its package, id, and user handle.

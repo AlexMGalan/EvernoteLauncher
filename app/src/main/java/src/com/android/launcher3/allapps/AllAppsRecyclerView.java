@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -27,19 +27,19 @@ import android.util.SparseIntArray;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.SpringAnimationHandler;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
-import com.android.launcher3.touch.OverScroll;
-import com.android.launcher3.touch.SwipeDetector;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
+import com.acacias.enlauncher.BaseRecyclerView;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.anim.SpringAnimationHandler;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.DrawableFactory;
+import com.acacias.enlauncher.logging.UserEventDispatcher.LogContainerProvider;
+import com.acacias.enlauncher.touch.OverScroll;
+import com.acacias.enlauncher.touch.SwipeDetector;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Target;
 
 import java.util.List;
 

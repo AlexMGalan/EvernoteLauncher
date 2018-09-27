@@ -1,4 +1,4 @@
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetManager;
@@ -9,15 +9,15 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.AppWidgetResizeFrame;
+import com.acacias.enlauncher.DropTarget;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.compat.AppWidgetManagerCompat;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.util.Thunk;
 
 public class WidgetHostViewLoader implements DragController.DragListener {
     private static final String TAG = "WidgetHostViewLoader";

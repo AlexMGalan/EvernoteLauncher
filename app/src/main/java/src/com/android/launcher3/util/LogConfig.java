@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 /**
  * This is a utility class that keeps track of all the tag that can be enabled to debug

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 import java.util.ArrayList;
 import java.util.HashSet;

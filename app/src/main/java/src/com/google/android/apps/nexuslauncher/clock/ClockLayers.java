@@ -4,7 +4,7 @@ import android.graphics.drawable.AdaptiveIconDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 import java.util.Calendar;
 import java.util.TimeZone;

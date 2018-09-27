@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.graphics.PointF;
 import android.os.SystemClock;
@@ -23,11 +23,11 @@ import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.ViewConfiguration;
 
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.util.FlingAnimation;
+import com.acacias.enlauncher.ButtonDropTarget;
+import com.acacias.enlauncher.DropTarget;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.util.FlingAnimation;
 
 /**
  * Utility class to manage fling to delete action during drag and drop.

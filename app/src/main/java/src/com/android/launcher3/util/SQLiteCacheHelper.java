@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteFullException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 /**
  * An extension of {@link SQLiteOpenHelper} with utility methods for a single table cache DB.

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.SharedPreferences;
 
 /**
  * This interface defines the set of methods that the Launcher activity exposes. Methods
- * here should be safe to call from classes outside of com.android.launcher3.*
+ * here should be safe to call from classes outside of com.acacias.enlauncher.*
  */
 public interface LauncherExterns {
 

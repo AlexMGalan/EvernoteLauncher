@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.ComponentName;
 import android.content.ContentProviderClient;
@@ -24,21 +24,21 @@ import android.content.IntentFilter;
 import android.os.Looper;
 import android.util.Log;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dynamicui.ExtractionUtils;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.util.ConfigMonitor;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.SettingsObserver;
-import com.android.launcher3.util.TestingUtils;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.PackageInstallerCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dynamicui.ExtractionUtils;
+import com.acacias.enlauncher.notification.NotificationListener;
+import com.acacias.enlauncher.util.ConfigMonitor;
+import com.acacias.enlauncher.util.Preconditions;
+import com.acacias.enlauncher.util.SettingsObserver;
+import com.acacias.enlauncher.util.TestingUtils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 
-import static com.android.launcher3.SettingsActivity.NOTIFICATION_BADGING;
+import static com.acacias.enlauncher.SettingsActivity.NOTIFICATION_BADGING;
 
 public class LauncherAppState {
 

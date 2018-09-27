@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.badge;
+package src.com.acacias.enlauncher.badge;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * Subclass of BadgeInfo that only contains the badge count, which is

@@ -1,4 +1,4 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetProviderInfo;

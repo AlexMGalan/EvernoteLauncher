@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.app.AppOpsManager;
 import android.content.Context;
@@ -29,10 +29,10 @@ import android.os.Build;
 import android.os.UserHandle;
 import android.text.TextUtils;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
 
 import java.net.URISyntaxException;
 import java.util.List;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -24,11 +24,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * A {@link android.widget.FrameLayout} that contains a {@link DeepShortcutView}.

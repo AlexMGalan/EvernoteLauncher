@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -23,9 +23,9 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.LauncherActivityInfo;
 import android.os.UserHandle;
 
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 /**
  * Represents an app in AllAppsView.

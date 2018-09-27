@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;

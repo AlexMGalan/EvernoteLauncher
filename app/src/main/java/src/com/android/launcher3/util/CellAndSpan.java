@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 /**
  * Base class which represents an area on the grid.

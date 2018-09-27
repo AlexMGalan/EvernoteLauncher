@@ -6,16 +6,16 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.BaseActivity;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 public class AppLaunchActivity extends BaseActivity {
     private void startUri(Uri uri) {

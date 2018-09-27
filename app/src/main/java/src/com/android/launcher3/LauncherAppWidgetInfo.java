@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Process;
 
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.util.ContentWriter;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.util.ContentWriter;
 
 /**
  * Represents a widget (either instantiated or about to be) in the Launcher.

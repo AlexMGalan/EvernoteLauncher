@@ -1,7 +1,7 @@
 package src.com.google.android.apps.nexuslauncher;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.Utilities;
 import com.google.android.libraries.gsa.launcherclient.ISerializableScrollCallback;
 import com.google.android.libraries.gsa.launcherclient.LauncherClient;
 

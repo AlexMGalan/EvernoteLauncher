@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.anim;
+package src.com.acacias.enlauncher.anim;
 
 import android.support.animation.FloatPropertyCompat;
 import android.support.animation.SpringAnimation;
@@ -24,7 +24,7 @@ import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

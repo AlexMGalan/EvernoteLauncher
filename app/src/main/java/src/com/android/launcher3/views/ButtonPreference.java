@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.views;
+package src.com.acacias.enlauncher.views;
 
 import android.content.Context;
 import android.preference.Preference;

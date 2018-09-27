@@ -1,4 +1,4 @@
-package src.com.android.launcher3.logging;
+package src.com.acacias.enlauncher.logging;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -6,8 +6,8 @@ import android.os.Message;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.io.BufferedReader;
 import java.io.File;

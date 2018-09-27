@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.discovery;
+package src.com.acacias.enlauncher.discovery;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,7 +24,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 
 /**
  * A simple rating view that shows stars with a rating from 0-5.

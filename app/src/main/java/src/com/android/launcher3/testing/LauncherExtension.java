@@ -1,4 +1,4 @@
-package src.com.android.launcher3.testing;
+package src.com.acacias.enlauncher.testing;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -7,11 +7,11 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherCallbacks;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ComponentKeyMapper;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherCallbacks;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

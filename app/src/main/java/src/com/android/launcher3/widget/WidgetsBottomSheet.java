@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,26 +31,26 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.touch.SwipeDetector;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.graphics.GradientView;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.SystemUiController;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.TouchController;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.DropTarget;
+import com.acacias.enlauncher.Insettable;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.touch.SwipeDetector;
+import com.acacias.enlauncher.anim.PropertyListBuilder;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.graphics.GradientView;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.SystemUiController;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.TouchController;
 
 import java.util.List;
 

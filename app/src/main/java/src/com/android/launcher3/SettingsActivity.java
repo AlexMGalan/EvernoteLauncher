@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -32,10 +32,10 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.provider.Settings;
 
-import com.android.launcher3.graphics.IconShapeOverride;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.util.SettingsObserver;
-import com.android.launcher3.views.ButtonPreference;
+import com.acacias.enlauncher.graphics.IconShapeOverride;
+import com.acacias.enlauncher.notification.NotificationListener;
+import com.acacias.enlauncher.util.SettingsObserver;
+import com.acacias.enlauncher.views.ButtonPreference;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation

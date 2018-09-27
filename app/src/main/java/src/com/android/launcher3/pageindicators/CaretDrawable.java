@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.pageindicators;
+package src.com.acacias.enlauncher.pageindicators;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,8 +24,8 @@ import android.graphics.Path;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.util.Themes;
 
 public class CaretDrawable extends Drawable {
     public static final float PROGRESS_CARET_POINTING_UP = -1f;

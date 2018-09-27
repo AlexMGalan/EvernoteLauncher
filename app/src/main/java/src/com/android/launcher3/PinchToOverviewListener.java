@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.TimeInterpolator;
 import android.content.Context;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 
-import com.android.launcher3.util.TouchController;
+import com.acacias.enlauncher.util.TouchController;
 
 /**
  * Detects pinches and animates the Workspace to/from overview mode.

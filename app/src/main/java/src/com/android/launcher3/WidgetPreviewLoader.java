@@ -1,4 +1,4 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -30,18 +30,18 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.util.LongSparseArray;
 
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.graphics.ShadowGenerator;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.SQLiteCacheHelper;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.WidgetCell;
+import com.acacias.enlauncher.compat.AppWidgetManagerCompat;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.graphics.ShadowGenerator;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.Preconditions;
+import com.acacias.enlauncher.util.SQLiteCacheHelper;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.widget.WidgetCell;
 
 import java.util.ArrayList;
 import java.util.Collections;

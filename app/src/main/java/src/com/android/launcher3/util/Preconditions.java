@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.os.Looper;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 /**
  * A set of utility methods for thread verification.

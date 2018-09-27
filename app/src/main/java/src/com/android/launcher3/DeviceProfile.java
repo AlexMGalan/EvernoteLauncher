@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.ComponentName;
@@ -31,8 +31,8 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.CellLayout.ContainerType;
-import com.android.launcher3.badge.BadgeRenderer;
+import com.acacias.enlauncher.CellLayout.ContainerType;
+import com.acacias.enlauncher.badge.BadgeRenderer;
 
 import java.util.ArrayList;
 

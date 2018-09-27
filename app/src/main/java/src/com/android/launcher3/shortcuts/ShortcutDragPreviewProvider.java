@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -23,10 +23,10 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.graphics.HolographicOutlineHelper;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.graphics.DragPreviewProvider;
+import com.acacias.enlauncher.graphics.HolographicOutlineHelper;
 
 /**
  * Extension of {@link DragPreviewProvider} which generates bitmaps scaled to the default icon size.

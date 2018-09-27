@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -34,12 +34,12 @@ import android.view.ViewDebug;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dynamicui.ExtractedColors;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dynamicui.ExtractedColors;
+import com.acacias.enlauncher.logging.UserEventDispatcher;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Target;
+import com.acacias.enlauncher.util.Themes;
 
 public class Hotseat extends FrameLayout
         implements UserEventDispatcher.LogContainerProvider {

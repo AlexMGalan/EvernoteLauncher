@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -23,7 +23,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
 import android.view.ViewTreeObserver;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.util.Thunk;
 
 /*
  *  This is a helper class that listens to updates from the corresponding animation.

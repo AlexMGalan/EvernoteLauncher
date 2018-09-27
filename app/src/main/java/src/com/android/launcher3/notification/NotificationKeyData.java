@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.notification;
+package src.com.acacias.enlauncher.notification;
 
 import android.app.Notification;
 import android.service.notification.StatusBarNotification;
@@ -23,7 +23,7 @@ import android.support.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * The key data associated with the notification, used to determine what to include

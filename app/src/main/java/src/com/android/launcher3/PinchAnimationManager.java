@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -24,12 +24,12 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.anim.AnimationLayerSet;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Action;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
 
-import static com.android.launcher3.Workspace.State.NORMAL;
-import static com.android.launcher3.Workspace.State.OVERVIEW;
+import static com.acacias.enlauncher.Workspace.State.NORMAL;
+import static com.acacias.enlauncher.Workspace.State.OVERVIEW;
 
 /**
  * Manages the animations that play as the user pinches to/from overview mode.

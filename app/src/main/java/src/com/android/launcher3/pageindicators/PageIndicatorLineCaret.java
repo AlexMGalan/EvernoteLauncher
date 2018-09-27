@@ -1,4 +1,4 @@
-package src.com.android.launcher3.pageindicators;
+package src.com.acacias.enlauncher.pageindicators;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,12 +18,12 @@ import android.util.Property;
 import android.view.ViewConfiguration;
 import android.widget.ImageView;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dynamicui.ExtractedColors;
-import com.android.launcher3.dynamicui.WallpaperColorInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dynamicui.ExtractedColors;
+import com.acacias.enlauncher.dynamicui.WallpaperColorInfo;
 
 /**
  * A PageIndicator that briefly shows a fraction of a line when moving between pages.

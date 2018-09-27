@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.ObjectAnimator;
 import android.animation.TimeInterpolator;
@@ -32,7 +32,7 @@ import android.graphics.drawable.Drawable;
 import android.util.Property;
 import android.util.SparseArray;
 
-import com.android.launcher3.graphics.IconPalette;
+import com.acacias.enlauncher.graphics.IconPalette;
 
 public class FastBitmapDrawable extends Drawable {
 

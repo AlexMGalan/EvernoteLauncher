@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -23,9 +23,9 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * A {@link BubbleTextView} that has the shortcut icon on the left and drag handle on the right.

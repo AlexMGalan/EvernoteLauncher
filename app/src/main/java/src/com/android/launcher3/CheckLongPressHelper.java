@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.view.View;
 
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.util.Thunk;
 
 public class CheckLongPressHelper {
 

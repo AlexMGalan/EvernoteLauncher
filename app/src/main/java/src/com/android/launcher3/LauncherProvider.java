@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.annotation.TargetApi;
 import android.appwidget.AppWidgetHost;
@@ -50,22 +50,22 @@ import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dynamicui.ExtractionUtils;
-import com.android.launcher3.graphics.IconShapeOverride;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.model.DbDowngradeHelper;
-import com.android.launcher3.provider.LauncherDbUtils;
-import com.android.launcher3.provider.LauncherDbUtils.SQLiteTransaction;
-import com.android.launcher3.provider.RestoreDbTask;
-import com.android.launcher3.util.ManagedProfileHeuristic;
-import com.android.launcher3.util.NoLocaleSqliteContext;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.AutoInstallsLayout.LayoutParserCallback;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.LauncherSettings.WorkspaceScreens;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dynamicui.ExtractionUtils;
+import com.acacias.enlauncher.graphics.IconShapeOverride;
+import com.acacias.enlauncher.logging.FileLog;
+import com.acacias.enlauncher.model.DbDowngradeHelper;
+import com.acacias.enlauncher.provider.LauncherDbUtils;
+import com.acacias.enlauncher.provider.LauncherDbUtils.SQLiteTransaction;
+import com.acacias.enlauncher.provider.RestoreDbTask;
+import com.acacias.enlauncher.util.ManagedProfileHeuristic;
+import com.acacias.enlauncher.util.NoLocaleSqliteContext;
+import com.acacias.enlauncher.util.Preconditions;
+import com.acacias.enlauncher.util.Thunk;
 
 import java.io.File;
 import java.io.FileDescriptor;
@@ -99,7 +99,7 @@ public class LauncherProvider extends ContentProvider {
     protected DatabaseHelper mOpenHelper;
 
     /**
-     * $ adb shell dumpsys activity provider com.android.launcher3
+     * $ adb shell dumpsys activity provider com.acacias.enlauncher
      */
     @Override
     public void dump(FileDescriptor fd, PrintWriter writer, String[] args) {

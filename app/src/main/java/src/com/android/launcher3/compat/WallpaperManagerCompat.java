@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 public abstract class WallpaperManagerCompat {
 

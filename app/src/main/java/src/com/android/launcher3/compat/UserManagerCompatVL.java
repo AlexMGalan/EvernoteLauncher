@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -22,8 +22,8 @@ import android.content.pm.PackageManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.util.ArrayMap;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.ManagedProfileHeuristic;
+import com.acacias.enlauncher.util.LongArrayMap;
+import com.acacias.enlauncher.util.ManagedProfileHeuristic;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.AnimatorSet;
 import android.animation.FloatArrayEvaluator;
@@ -39,12 +39,12 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
 
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.dragndrop.DragView;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.Thunk;
 
 /**
  * Implements a DropTarget.

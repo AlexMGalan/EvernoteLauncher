@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.notification;
+package src.com.acacias.enlauncher.notification;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -29,13 +29,13 @@ import android.view.ViewPropertyAnimator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.touch.OverScroll;
-import com.android.launcher3.touch.SwipeDetector;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.touch.OverScroll;
+import com.acacias.enlauncher.touch.SwipeDetector;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto;
+import com.acacias.enlauncher.util.Themes;
 
 /**
  * A {@link android.widget.FrameLayout} that contains a single notification,

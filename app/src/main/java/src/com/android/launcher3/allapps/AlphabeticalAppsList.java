@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.content.Context;
 import android.content.pm.LauncherActivityInfo;
@@ -23,20 +23,20 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.discovery.AppDiscoveryAppInfo;
-import com.android.launcher3.discovery.AppDiscoveryItem;
-import com.android.launcher3.discovery.AppDiscoveryUpdateState;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ComponentKeyMapper;
-import com.android.launcher3.util.LabelComparator;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.compat.AlphabeticIndexCompat;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.discovery.AppDiscoveryAppInfo;
+import com.acacias.enlauncher.discovery.AppDiscoveryItem;
+import com.acacias.enlauncher.discovery.AppDiscoveryUpdateState;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
+import com.acacias.enlauncher.util.LabelComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

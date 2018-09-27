@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.graphics.Rect;
 
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.dragndrop.DragView;
+import com.acacias.enlauncher.accessibility.DragViewStateAnnouncer;
+import com.acacias.enlauncher.dragndrop.DragView;
 
 /**
  * Interface defining an object that can receive a drag.

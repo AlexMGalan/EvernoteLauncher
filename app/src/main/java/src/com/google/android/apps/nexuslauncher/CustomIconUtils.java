@@ -11,17 +11,17 @@ import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.search.DefaultAppSearchAlgorithm;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LooperExecutor;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.allapps.search.DefaultAppSearchAlgorithm;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.graphics.DrawableFactory;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.LooperExecutor;
 import com.google.android.apps.nexuslauncher.clock.CustomClock;
 
 import org.xmlpull.v1.XmlPullParser;

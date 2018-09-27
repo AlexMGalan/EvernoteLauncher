@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -22,7 +22,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerView;
+import com.acacias.enlauncher.BaseRecyclerView;
 
 /**
  * The widgets recycler view.

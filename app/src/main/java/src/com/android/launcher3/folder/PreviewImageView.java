@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,9 +24,9 @@ import android.graphics.Rect;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.dragndrop.DragLayer;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.dragndrop.DragLayer;
 
 /**
  * A temporary view which displays the a bitmap (used for folder icon animation)

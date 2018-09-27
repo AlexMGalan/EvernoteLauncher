@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.os.UserHandle;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.ModelUpdateTask;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.MultiHashMap;
+import com.acacias.enlauncher.AllAppsList;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.LauncherModel.ModelUpdateTask;
+import com.acacias.enlauncher.LauncherModel.CallbackTask;
+import com.acacias.enlauncher.LauncherModel.Callbacks;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ItemInfoMatcher;
+import com.acacias.enlauncher.util.MultiHashMap;
 
 import java.util.ArrayList;
 import java.util.concurrent.Executor;

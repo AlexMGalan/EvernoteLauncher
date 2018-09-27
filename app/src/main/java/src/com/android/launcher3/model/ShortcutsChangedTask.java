@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.Context;
 import android.os.UserHandle;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.MultiHashMap;
+import com.acacias.enlauncher.AllAppsList;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.shortcuts.ShortcutKey;
+import com.acacias.enlauncher.util.ItemInfoMatcher;
+import com.acacias.enlauncher.util.MultiHashMap;
 
 import java.util.ArrayList;
 import java.util.HashSet;

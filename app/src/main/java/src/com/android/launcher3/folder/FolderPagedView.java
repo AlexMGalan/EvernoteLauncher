@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -29,23 +29,23 @@ import android.view.View;
 import android.view.ViewDebug;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.FocusHelper.PagedFolderKeyEventListener;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.PagedView;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace.ItemOperator;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.pageindicators.PageIndicator;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.FocusHelper.PagedFolderKeyEventListener;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.PagedView;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutAndWidgetContainer;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace.ItemOperator;
+import com.acacias.enlauncher.keyboard.ViewGroupFocusHelper;
+import com.acacias.enlauncher.pageindicators.PageIndicator;
+import com.acacias.enlauncher.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.Iterator;

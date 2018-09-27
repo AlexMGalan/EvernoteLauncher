@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.view.View;
 
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
+import com.acacias.enlauncher.DropTarget.DragObject;
+import com.acacias.enlauncher.logging.UserEventDispatcher.LogContainerProvider;
 
 /**
  * Interface defining an object that can originate a drag.

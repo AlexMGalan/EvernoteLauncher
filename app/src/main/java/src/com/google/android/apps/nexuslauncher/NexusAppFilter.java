@@ -4,7 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.os.UserHandle;
 
-import com.android.launcher3.AppFilter;
+import com.acacias.enlauncher.AppFilter;
 
 import java.util.HashSet;
 

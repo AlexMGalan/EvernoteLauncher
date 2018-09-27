@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps.search;
+package src.com.acacias.enlauncher.allapps.search;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -28,13 +28,13 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.discovery.AppDiscoveryItem;
-import com.android.launcher3.discovery.AppDiscoveryUpdateState;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.ExtendedEditText;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.discovery.AppDiscoveryItem;
+import com.acacias.enlauncher.discovery.AppDiscoveryUpdateState;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 import java.util.ArrayList;
 

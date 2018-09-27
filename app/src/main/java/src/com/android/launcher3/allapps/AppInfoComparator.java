@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.content.Context;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.util.LabelComparator;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.util.LabelComparator;
 
 import java.util.Comparator;
 

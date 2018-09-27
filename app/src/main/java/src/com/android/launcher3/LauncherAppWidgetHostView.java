@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetProviderInfo;
@@ -36,8 +36,8 @@ import android.widget.AdapterView;
 import android.widget.Advanceable;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragLayer.TouchCompleteListener;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragLayer.TouchCompleteListener;
 
 import java.util.ArrayList;
 

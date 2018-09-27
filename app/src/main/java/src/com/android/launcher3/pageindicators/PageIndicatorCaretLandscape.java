@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.pageindicators;
+package src.com.acacias.enlauncher.pageindicators;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
 
 /**
  * Simply draws the caret drawable bottom-right aligned in the view. This ensures that we can have

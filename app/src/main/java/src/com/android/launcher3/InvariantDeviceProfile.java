@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -27,8 +27,8 @@ import android.util.Xml;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.Thunk;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

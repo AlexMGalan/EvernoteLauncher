@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,19 +23,19 @@ import android.os.Handler;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherFiles;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.MainThreadExecutor;
-import com.android.launcher3.R;
-import com.android.launcher3.SessionCommitReceiver;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.model.BgDataModel;
-import com.android.launcher3.model.ModelWriter;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.InstallShortcutReceiver;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherFiles;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.MainThreadExecutor;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.SessionCommitReceiver;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.model.BgDataModel;
+import com.acacias.enlauncher.model.ModelWriter;
 
 import java.util.ArrayList;
 import java.util.HashSet;

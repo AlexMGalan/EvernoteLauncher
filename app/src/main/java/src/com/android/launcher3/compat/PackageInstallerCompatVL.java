@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -27,11 +27,11 @@ import android.os.UserHandle;
 import android.text.TextUtils;
 import android.util.SparseArray;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.HashMap;

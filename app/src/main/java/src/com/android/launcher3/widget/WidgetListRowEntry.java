@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.model.WidgetItem;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,7 @@
 package src.com.google.android.apps.nexuslauncher.search;
 
-import com.android.launcher3.allapps.search.AllAppsSearchBarController;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.allapps.search.AllAppsSearchBarController;
+import com.acacias.enlauncher.util.ComponentKey;
 
 import java.util.ArrayList;
 

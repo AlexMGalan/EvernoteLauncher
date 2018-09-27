@@ -1,4 +1,4 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
@@ -11,8 +11,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewDebug;
 
-import static com.android.launcher3.util.SystemUiController.FLAG_DARK_NAV;
-import static com.android.launcher3.util.SystemUiController.UI_STATE_ROOT_VIEW;
+import static com.acacias.enlauncher.util.SystemUiController.FLAG_DARK_NAV;
+import static com.acacias.enlauncher.util.SystemUiController.UI_STATE_ROOT_VIEW;
 
 public class LauncherRootView extends InsettableFrameLayout {
 

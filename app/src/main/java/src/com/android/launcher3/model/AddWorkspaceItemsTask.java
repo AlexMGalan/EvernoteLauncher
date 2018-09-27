@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,22 +23,22 @@ import android.os.UserHandle;
 import android.util.ArrayMap;
 import android.util.LongSparseArray;
 import android.util.Pair;
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.ManagedProfileHeuristic.UserFolderInfo;
-import com.android.launcher3.util.Provider;
+import com.acacias.enlauncher.AllAppsList;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.LauncherModel.CallbackTask;
+import com.acacias.enlauncher.LauncherModel.Callbacks;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.util.GridOccupancy;
+import com.acacias.enlauncher.util.ManagedProfileHeuristic.UserFolderInfo;
+import com.acacias.enlauncher.util.Provider;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,9 +29,9 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.util.SparseArray;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.nio.ByteBuffer;
 

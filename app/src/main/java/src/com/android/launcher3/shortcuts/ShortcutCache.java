@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.annotation.TargetApi;
 import android.os.Build;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.provider;
+package src.com.acacias.enlauncher.provider;
 
-import static com.android.launcher3.Utilities.getDevicePrefs;
+import static com.acacias.enlauncher.Utilities.getDevicePrefs;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentValues;
@@ -34,23 +34,23 @@ import android.text.TextUtils;
 import android.util.ArrayMap;
 import android.util.LongSparseArray;
 import android.util.SparseBooleanArray;
-import com.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
-import com.android.launcher3.DefaultLayoutParser;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.Settings;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.model.GridSizeMigrationTask;
-import com.android.launcher3.util.LongArrayMap;
+import com.acacias.enlauncher.AutoInstallsLayout.LayoutParserCallback;
+import com.acacias.enlauncher.DefaultLayoutParser;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherProvider;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.LauncherSettings.Settings;
+import com.acacias.enlauncher.LauncherSettings.WorkspaceScreens;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.logging.FileLog;
+import com.acacias.enlauncher.model.GridSizeMigrationTask;
+import com.acacias.enlauncher.util.LongArrayMap;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashSet;

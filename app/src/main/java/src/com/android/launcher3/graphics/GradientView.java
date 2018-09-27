@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -32,11 +32,11 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.dynamicui.WallpaperColorInfo;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.dynamicui.WallpaperColorInfo;
+import com.acacias.enlauncher.util.Themes;
 
 /**
  * Draws a translucent radial gradient background from an initial state with progress 0.0 to a

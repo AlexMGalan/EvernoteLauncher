@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.Context;
 import android.os.UserHandle;
@@ -21,24 +21,24 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.MutableInt;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.logging.DumpTargetWrapper;
-import com.android.launcher3.model.nano.LauncherDumpProto;
-import com.android.launcher3.model.nano.LauncherDumpProto.ContainerType;
-import com.android.launcher3.model.nano.LauncherDumpProto.DumpTarget;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.MultiHashMap;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.InstallShortcutReceiver;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.logging.DumpTargetWrapper;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto.ContainerType;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto.DumpTarget;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.shortcuts.ShortcutKey;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.LongArrayMap;
+import com.acacias.enlauncher.util.MultiHashMap;
 import com.google.protobuf.nano.MessageNano;
 
 import java.io.FileDescriptor;

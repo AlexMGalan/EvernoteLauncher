@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.compat.PackageInstallerCompat;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 public class PromiseAppInfo extends AppInfo {
 

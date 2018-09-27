@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.util.Log;
 import android.view.KeyEvent;
@@ -22,11 +22,11 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderPagedView;
-import com.android.launcher3.util.FocusLogic;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.folder.Folder;
+import com.acacias.enlauncher.folder.FolderPagedView;
+import com.acacias.enlauncher.util.FocusLogic;
+import com.acacias.enlauncher.util.Thunk;
 
 /**
  * A keyboard listener we set on all the workspace icons.

@@ -28,12 +28,12 @@ import android.preference.SwitchPreference;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.graphics.DrawableFactory;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.widget.WidgetsBottomSheet;
 
 public class CustomBottomSheet extends WidgetsBottomSheet {
     private FragmentManager mFragmentManager;

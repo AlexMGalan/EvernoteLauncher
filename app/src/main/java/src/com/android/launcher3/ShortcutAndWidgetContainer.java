@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.app.WallpaperManager;
 import android.content.Context;
@@ -22,7 +22,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.CellLayout.ContainerType;
+import com.acacias.enlauncher.CellLayout.ContainerType;
 
 public class ShortcutAndWidgetContainer extends ViewGroup {
     static final String TAG = "ShortcutAndWidgetContainer";

@@ -8,8 +8,8 @@ import android.content.Intent;
 import android.content.pm.LauncherActivityInfo;
 import android.os.Bundle;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.util.ComponentKey;
 import com.google.android.apps.nexuslauncher.NexusLauncherActivity;
 import com.google.android.apps.nexuslauncher.search.AppSearchProvider;
 

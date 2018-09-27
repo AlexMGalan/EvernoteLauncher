@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -37,17 +37,17 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.Provider;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.FastBitmapDrawable;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.Provider;
 
 /**
  * Helper methods for generating various launcher icons

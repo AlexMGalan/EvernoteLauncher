@@ -15,13 +15,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
 
-import com.android.launcher3.IconProvider;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.IconProvider;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
 import com.google.android.apps.nexuslauncher.clock.DynamicClock;
 
 import java.util.Calendar;

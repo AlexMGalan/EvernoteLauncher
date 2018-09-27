@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.config;
+package src.com.acacias.enlauncher.config;
 
 /**
  * Defines a set of flags used to control various launcher behaviors.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -30,17 +30,17 @@ import android.util.Property;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.PropertyResetListener;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutAndWidgetContainer;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.anim.PropertyResetListener;
+import com.acacias.enlauncher.anim.RoundedRectRevealOutlineProvider;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.util.Themes;
 
 import java.util.List;
 

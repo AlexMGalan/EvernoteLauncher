@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.launcher3.views.DoubleShadowBubbleTextView;
+import com.acacias.enlauncher.views.DoubleShadowBubbleTextView;
 
 public class DoubleShadowTextView extends TextView {
     private final DoubleShadowBubbleTextView.ShadowInfo mShadowInfo;

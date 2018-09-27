@@ -1,4 +1,4 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 /**
  * This class is a listener for {@link LauncherProvider} changes. It gets notified in the

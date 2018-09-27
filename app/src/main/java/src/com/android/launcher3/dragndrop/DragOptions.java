@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.graphics.Point;
 
-import com.android.launcher3.DropTarget;
+import com.acacias.enlauncher.DropTarget;
 
 /**
  * Set of options to control the drag and drop behavior.

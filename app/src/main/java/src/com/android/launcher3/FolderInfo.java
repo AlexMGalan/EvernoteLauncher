@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.os.Process;
 
-import com.android.launcher3.model.ModelWriter;
-import com.android.launcher3.util.ContentWriter;
+import com.acacias.enlauncher.model.ModelWriter;
+import com.acacias.enlauncher.util.ContentWriter;
 
 import java.util.ArrayList;
 

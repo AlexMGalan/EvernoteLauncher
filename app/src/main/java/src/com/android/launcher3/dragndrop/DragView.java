@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -45,26 +45,26 @@ import android.support.animation.SpringForce;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.IconNormalizer;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
+import com.acacias.enlauncher.FastBitmapDrawable;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.IconNormalizer;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.shortcuts.ShortcutKey;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.widget.PendingAddShortcutInfo;
 
 import java.util.Arrays;
 import java.util.List;

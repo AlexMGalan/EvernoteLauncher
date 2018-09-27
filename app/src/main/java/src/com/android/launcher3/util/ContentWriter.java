@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 /**
  * Copyright (C) 2016 The Android Open Source Project
@@ -23,10 +23,10 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.UserManagerCompat;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.UserManagerCompat;
 
 /**
  * A wrapper around {@link ContentValues} with some utility methods.

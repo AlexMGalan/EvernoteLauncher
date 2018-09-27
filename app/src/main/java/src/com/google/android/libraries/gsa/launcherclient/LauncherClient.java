@@ -366,7 +366,7 @@ public class LauncherClient {
 
     static Intent getIntent(Context context, boolean proxy) {
         String pkg = context.getPackageName();
-        return new Intent("com.android.launcher3.WINDOW_OVERLAY")
+        return new Intent("com.acacias.enlauncher.WINDOW_OVERLAY")
                 .setPackage(proxy ? BRIDGE_PACKAGE : "com.google.android.googlequicksearchbox")
                 .setData(Uri.parse(new StringBuilder(pkg.length() + 18)
                             .append("app://")

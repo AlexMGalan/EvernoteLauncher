@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.support.v7.widget.RecyclerView;
 
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.util.Thunk;
 
 import java.util.HashSet;
 import java.util.List;

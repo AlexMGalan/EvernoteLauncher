@@ -1,4 +1,4 @@
-package src.com.android.launcher3.anim;
+package src.com.acacias.enlauncher.anim;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -8,7 +8,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewOutlineProvider;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * A {@link ViewOutlineProvider} that has helper functions to create reveal animations.

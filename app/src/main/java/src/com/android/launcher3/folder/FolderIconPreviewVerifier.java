@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 /**
  * Verifies whether an item in a Folder is displayed in the FolderIcon preview.

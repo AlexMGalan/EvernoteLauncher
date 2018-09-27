@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.annotation.TargetApi;
 import android.content.ComponentName;
@@ -23,10 +23,10 @@ import android.content.Intent;
 import android.os.Build;
 import android.text.TextUtils;
 
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.ContentWriter;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.ContentWriter;
 
 /**
  * Represents a launchable icon on the workspaces and in folders.

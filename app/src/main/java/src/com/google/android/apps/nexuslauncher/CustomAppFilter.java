@@ -5,12 +5,12 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.UserHandle;
 
-import com.android.launcher3.BuildConfig;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.BuildConfig;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.util.ComponentKey;
 
 import java.util.HashSet;
 import java.util.Set;

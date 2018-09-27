@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -45,21 +45,21 @@ import android.view.ViewDebug;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.DecelerateInterpolator;
-import com.android.launcher3.BubbleTextView.BubbleTextShadowHandler;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.accessibility.DragAndDropAccessibilityDelegate;
-import com.android.launcher3.accessibility.FolderAccessibilityHelper;
-import com.android.launcher3.accessibility.WorkspaceAccessibilityHelper;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.folder.PreviewBackground;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.util.CellAndSpan;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.ParcelableSparseArray;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.BubbleTextView.BubbleTextShadowHandler;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.accessibility.DragAndDropAccessibilityDelegate;
+import com.acacias.enlauncher.accessibility.FolderAccessibilityHelper;
+import com.acacias.enlauncher.accessibility.WorkspaceAccessibilityHelper;
+import com.acacias.enlauncher.anim.PropertyListBuilder;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.folder.FolderIcon;
+import com.acacias.enlauncher.folder.PreviewBackground;
+import com.acacias.enlauncher.graphics.DragPreviewProvider;
+import com.acacias.enlauncher.util.CellAndSpan;
+import com.acacias.enlauncher.util.GridOccupancy;
+import com.acacias.enlauncher.util.ParcelableSparseArray;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.Thunk;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.popup;
+package src.com.acacias.enlauncher.popup;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -45,34 +45,34 @@ import android.view.ViewConfiguration;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.android.launcher3.accessibility.ShortcutMenuAccessibilityDelegate;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.anim.PropertyResetListener;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.graphics.TriangleShape;
-import com.android.launcher3.notification.NotificationItemView;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.DeepShortcutView;
-import com.android.launcher3.shortcuts.ShortcutsItemView;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.DragSource;
+import com.acacias.enlauncher.DropTarget;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.accessibility.LauncherAccessibilityDelegate;
+import com.acacias.enlauncher.accessibility.ShortcutMenuAccessibilityDelegate;
+import com.acacias.enlauncher.anim.PropertyListBuilder;
+import com.acacias.enlauncher.anim.PropertyResetListener;
+import com.acacias.enlauncher.anim.RoundedRectRevealOutlineProvider;
+import com.acacias.enlauncher.badge.BadgeInfo;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.graphics.IconPalette;
+import com.acacias.enlauncher.graphics.TriangleShape;
+import com.acacias.enlauncher.notification.NotificationItemView;
+import com.acacias.enlauncher.notification.NotificationKeyData;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.DeepShortcutView;
+import com.acacias.enlauncher.shortcuts.ShortcutsItemView;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.Themes;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -81,10 +81,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static com.android.launcher3.popup.PopupPopulator.MAX_SHORTCUTS_IF_NOTIFICATIONS;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ItemType;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.Target;
+import static com.acacias.enlauncher.popup.PopupPopulator.MAX_SHORTCUTS_IF_NOTIFICATIONS;
+import static com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import static com.acacias.enlauncher.userevent.nano.LauncherLogProto.ItemType;
+import static com.acacias.enlauncher.userevent.nano.LauncherLogProto.Target;
 
 /**
  * A container for shortcuts to deep links within apps.

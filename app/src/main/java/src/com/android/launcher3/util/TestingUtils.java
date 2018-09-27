@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,23 +8,23 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.CustomAppWidget;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.CustomAppWidget;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
 
 import java.util.HashMap;
 
 public class TestingUtils {
 
-    public static final String MEMORY_TRACKER = "com.android.launcher3.testing.MemoryTracker";
-    public static final String ACTION_START_TRACKING = "com.android.launcher3.action.START_TRACKING";
+    public static final String MEMORY_TRACKER = "com.acacias.enlauncher.testing.MemoryTracker";
+    public static final String ACTION_START_TRACKING = "com.acacias.enlauncher.action.START_TRACKING";
 
     public static final boolean MEMORY_DUMP_ENABLED = false;
     public static final String SHOW_WEIGHT_WATCHER = "debug.show_mem";
 
     public static final boolean ENABLE_CUSTOM_WIDGET_TEST = false;
-    public static final String DUMMY_WIDGET = "com.android.launcher3.testing.DummyWidget";
+    public static final String DUMMY_WIDGET = "com.acacias.enlauncher.testing.DummyWidget";
 
     public static void startTrackingMemory(Context context) {
         if (MEMORY_DUMP_ENABLED) {

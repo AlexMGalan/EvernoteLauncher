@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.annotation.TargetApi;
 import android.appwidget.AppWidgetManager;
@@ -29,17 +29,17 @@ import android.view.DragEvent;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.DragSource;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.PendingItemDragHelper;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.acacias.enlauncher.DragSource;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.PendingAddItemInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto;
+import com.acacias.enlauncher.widget.PendingAddShortcutInfo;
+import com.acacias.enlauncher.widget.PendingAddWidgetInfo;
+import com.acacias.enlauncher.widget.PendingItemDragHelper;
+import com.acacias.enlauncher.widget.WidgetAddFlowHandler;
 
 /**
  * {@link DragSource} for handling drop from a different window. This object is initialized

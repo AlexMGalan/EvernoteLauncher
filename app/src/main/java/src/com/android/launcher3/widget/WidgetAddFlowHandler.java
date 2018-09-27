@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.util.PendingRequestArgs;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.util.PendingRequestArgs;
 
 /**
  * Utility class to handle app widget add flow.

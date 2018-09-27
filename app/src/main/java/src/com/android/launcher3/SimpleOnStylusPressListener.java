@@ -1,9 +1,9 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.StylusEventHelper.StylusButtonListener;
+import com.acacias.enlauncher.StylusEventHelper.StylusButtonListener;
 
 /**
  * Simple listener that performs a long click on the view after a stylus button press.

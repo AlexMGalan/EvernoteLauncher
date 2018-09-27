@@ -1,4 +1,4 @@
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -14,7 +14,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
 
 import java.net.URISyntaxException;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.content.Context;
 import android.content.pm.LauncherApps;
@@ -27,25 +27,25 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.android.launcher3.BaseContainerView;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.BaseContainerView;
+import com.acacias.enlauncher.DeleteDropTarget;
+import com.acacias.enlauncher.DragSource;
+import com.acacias.enlauncher.DropTarget.DragObject;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.AlphabeticIndexCompat;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.folder.Folder;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Target;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.Thunk;
 
 import java.util.List;
 

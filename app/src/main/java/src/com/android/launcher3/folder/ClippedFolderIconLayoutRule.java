@@ -1,4 +1,4 @@
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 
 public class ClippedFolderIconLayoutRule implements FolderIcon.PreviewLayoutRule {

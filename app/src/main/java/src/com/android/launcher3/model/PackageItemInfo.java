@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
-import com.android.launcher3.ItemInfoWithIcon;
+import com.acacias.enlauncher.ItemInfoWithIcon;
 
 /**
  * Represents a {@link Package} in the widget tray section.

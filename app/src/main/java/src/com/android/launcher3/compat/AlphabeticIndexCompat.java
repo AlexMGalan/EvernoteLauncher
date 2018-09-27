@@ -1,4 +1,4 @@
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.os.Build;
 import android.os.LocaleList;
 import android.util.Log;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 import java.lang.reflect.Method;
 import java.util.Locale;

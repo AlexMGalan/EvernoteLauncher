@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -25,14 +25,14 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 
-import com.android.launcher3.R;
-import com.android.launcher3.WidgetPreviewLoader;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.util.LabelComparator;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.WidgetPreviewLoader;
+import com.acacias.enlauncher.compat.AlphabeticIndexCompat;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.util.LabelComparator;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Collections;

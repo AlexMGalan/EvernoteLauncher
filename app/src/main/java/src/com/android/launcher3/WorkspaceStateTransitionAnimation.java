@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -30,11 +30,11 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.anim.AnimationLayerSet;
+import com.acacias.enlauncher.anim.PropertyListBuilder;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.util.Thunk;
 
 /**
  * A convenience class to update a view's visibility state after an alpha animation.

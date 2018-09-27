@@ -2,16 +2,16 @@ package src.com.google.android.apps.nexuslauncher.search;
 
 import android.content.SharedPreferences;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.ItemInfoWithIcon;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherCallbacks;
-import com.android.launcher3.R;
-import com.android.launcher3.allapps.AllAppsRecyclerView;
-import com.android.launcher3.allapps.AlphabeticalAppsList;
-import com.android.launcher3.util.ComponentKeyMapper;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.ItemInfoWithIcon;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherCallbacks;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.allapps.AllAppsRecyclerView;
+import com.acacias.enlauncher.allapps.AlphabeticalAppsList;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
 
 import java.util.Iterator;
 

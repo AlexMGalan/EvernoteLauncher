@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,8 +22,8 @@ import android.content.ContextWrapper;
 import android.content.Intent;
 import android.view.View.AccessibilityDelegate;
 
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.util.SystemUiController;
+import com.acacias.enlauncher.logging.UserEventDispatcher;
+import com.acacias.enlauncher.util.SystemUiController;
 
 public abstract class BaseActivity extends Activity {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.graphics;
+package src.com.acacias.enlauncher.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,12 +24,12 @@ import android.graphics.Region.Op;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetHostView;
-import com.android.launcher3.R;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.FolderIcon;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppWidgetHostView;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.folder.FolderIcon;
 
 /**
  * A utility class to generate preview bitmap for dragging.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -38,40 +38,40 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.Alarm;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.CheckLongPressHelper;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.FolderInfo.FolderListener;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.OnAlarmListener;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.SimpleOnStylusPressListener;
-import com.android.launcher3.StylusEventHelper;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.badge.FolderBadgeInfo;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dragndrop.BaseItemDragListener;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
+import com.acacias.enlauncher.Alarm;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.CheckLongPressHelper;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.DropTarget.DragObject;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.FolderInfo.FolderListener;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.OnAlarmListener;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.SimpleOnStylusPressListener;
+import com.acacias.enlauncher.StylusEventHelper;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace;
+import com.acacias.enlauncher.badge.BadgeRenderer;
+import com.acacias.enlauncher.badge.FolderBadgeInfo;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dragndrop.BaseItemDragListener;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragView;
+import com.acacias.enlauncher.graphics.IconPalette;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.widget.PendingAddShortcutInfo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.android.launcher3.folder.PreviewItemManager.INITIAL_ITEM_ANIMATION_DURATION;
+import static com.acacias.enlauncher.folder.PreviewItemManager.INITIAL_ITEM_ANIMATION_DURATION;
 
 /**
  * An icon that can appear on in the workspace representing an {@link Folder}.

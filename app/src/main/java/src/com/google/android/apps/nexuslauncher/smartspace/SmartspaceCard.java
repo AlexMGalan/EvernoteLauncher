@@ -14,10 +14,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.graphics.ShadowGenerator;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.graphics.ShadowGenerator;
 import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.b;
 import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.c;
 import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.e;

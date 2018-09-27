@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.animation.ObjectAnimator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.pageindicators.CaretDrawable;
-import com.android.launcher3.touch.SwipeDetector;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.pageindicators.CaretDrawable;
+import com.acacias.enlauncher.touch.SwipeDetector;
 
 public class AllAppsCaretController {
     // Determines when the caret should flip. Should be accessed via getThreshold()

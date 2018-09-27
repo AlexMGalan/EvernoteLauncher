@@ -2,11 +2,11 @@ package src.com.google.android.apps.nexuslauncher.smartspace;
 
 import android.view.View;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.popup.SystemShortcut;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.popup.SystemShortcut;
 
 class SmartspacePreferencesShortcut extends SystemShortcut {
     SmartspacePreferencesShortcut() {

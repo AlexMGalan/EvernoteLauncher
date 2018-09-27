@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,13 +28,13 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.anim.CircleRevealOutlineProvider;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.WidgetsContainerView;
+import com.acacias.enlauncher.allapps.AllAppsContainerView;
+import com.acacias.enlauncher.allapps.AllAppsTransitionController;
+import com.acacias.enlauncher.anim.AnimationLayerSet;
+import com.acacias.enlauncher.anim.CircleRevealOutlineProvider;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.widget.WidgetsContainerView;
 
 /**
  * TODO: figure out what kind of tests we can write for this

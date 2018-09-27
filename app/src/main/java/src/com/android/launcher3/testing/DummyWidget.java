@@ -1,9 +1,9 @@
-package src.com.android.launcher3.testing;
+package src.com.acacias.enlauncher.testing;
 
 import android.appwidget.AppWidgetProviderInfo;
 
-import com.android.launcher3.CustomAppWidget;
-import com.android.launcher3.R;
+import com.acacias.enlauncher.CustomAppWidget;
+import com.acacias.enlauncher.R;
 
 public class DummyWidget implements CustomAppWidget {
     @Override

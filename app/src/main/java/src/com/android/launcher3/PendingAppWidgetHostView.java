@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -32,10 +32,10 @@ import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.android.launcher3.IconCache.ItemInfoUpdateReceiver;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.IconCache.ItemInfoUpdateReceiver;
+import com.acacias.enlauncher.graphics.DrawableFactory;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.util.Themes;
 
 public class PendingAppWidgetHostView extends LauncherAppWidgetHostView
         implements OnClickListener, ItemInfoUpdateReceiver {

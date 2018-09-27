@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.Collections;
 import java.util.List;

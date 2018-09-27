@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.compat;
+package src.com.acacias.enlauncher.compat;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,9 +25,9 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.PackageUserKey;
 import java.util.List;
 
 public abstract class LauncherAppsCompat {

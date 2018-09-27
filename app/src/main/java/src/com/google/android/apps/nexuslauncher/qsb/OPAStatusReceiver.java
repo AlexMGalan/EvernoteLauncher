@@ -1,6 +1,6 @@
 package src.com.google.android.apps.nexuslauncher.qsb;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 import android.content.Intent;
 import android.content.Context;
 import android.content.BroadcastReceiver;

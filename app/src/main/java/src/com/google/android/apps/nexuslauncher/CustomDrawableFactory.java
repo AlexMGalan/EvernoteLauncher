@@ -9,13 +9,13 @@ import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.os.Process;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LooperExecutor;
+import com.acacias.enlauncher.FastBitmapDrawable;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.LooperExecutor;
 import com.google.android.apps.nexuslauncher.clock.CustomClock;
 import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 public class StackFolderIconLayoutRule implements FolderIcon.PreviewLayoutRule {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.os.Looper;
 import android.os.MessageQueue;
 
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.Utilities;
 
 /**
  * Utility class to block execution until the UI looper is idle.

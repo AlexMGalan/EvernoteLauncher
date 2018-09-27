@@ -11,11 +11,11 @@ import android.graphics.drawable.LayerDrawable;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.IconNormalizer;
-import com.android.launcher3.util.Preconditions;
+import com.acacias.enlauncher.FastBitmapDrawable;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.IconNormalizer;
+import com.acacias.enlauncher.util.Preconditions;
 
 import java.util.Collections;
 import java.util.Set;

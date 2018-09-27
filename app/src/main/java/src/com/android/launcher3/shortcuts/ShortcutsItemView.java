@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -28,22 +28,22 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.popup.PopupItemView;
-import com.android.launcher3.popup.PopupPopulator;
-import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.anim.PropertyListBuilder;
+import com.acacias.enlauncher.anim.RoundedRectRevealOutlineProvider;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.dragndrop.DragView;
+import com.acacias.enlauncher.logging.UserEventDispatcher.LogContainerProvider;
+import com.acacias.enlauncher.popup.PopupContainerWithArrow;
+import com.acacias.enlauncher.popup.PopupItemView;
+import com.acacias.enlauncher.popup.PopupPopulator;
+import com.acacias.enlauncher.popup.SystemShortcut;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto;
 
 import java.util.ArrayList;
 import java.util.Collections;

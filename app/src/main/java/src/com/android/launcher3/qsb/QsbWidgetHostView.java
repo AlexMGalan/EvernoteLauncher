@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.qsb;
+package src.com.acacias.enlauncher.qsb;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.view.ViewDebug;
 import android.view.ViewGroup;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
 
 /**
  * Appwidget host view with QSB specific logic.

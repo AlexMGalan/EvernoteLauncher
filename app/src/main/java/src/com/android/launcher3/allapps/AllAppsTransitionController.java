@@ -1,4 +1,4 @@
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -19,22 +19,22 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.inputmethod.InputMethodManager;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.anim.SpringAnimationHandler;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.GradientView;
-import com.android.launcher3.touch.SwipeDetector;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.util.SystemUiController;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.TouchController;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.Hotseat;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace;
+import com.acacias.enlauncher.anim.SpringAnimationHandler;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.GradientView;
+import com.acacias.enlauncher.touch.SwipeDetector;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Action;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.util.SystemUiController;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.TouchController;
 
 import java.lang.reflect.InvocationTargetException;
 

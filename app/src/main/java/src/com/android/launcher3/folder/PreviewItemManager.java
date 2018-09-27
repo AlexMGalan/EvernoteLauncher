@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -26,15 +26,15 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.android.launcher3.folder.FolderIcon.DROP_IN_ANIMATION_DURATION;
+import static com.acacias.enlauncher.folder.FolderIcon.DROP_IN_ANIMATION_DURATION;
 
 /**
  * Manages the drawing and animations of {@link PreviewItemDrawingParams} for a {@link FolderIcon}.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -26,8 +26,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.util.Themes;
 
 public class InfoDropTarget extends UninstallDropTarget {
 

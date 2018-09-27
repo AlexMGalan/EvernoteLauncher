@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.pageindicators;
+package src.com.acacias.enlauncher.pageindicators;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.dynamicui.ExtractedColors;
+import com.acacias.enlauncher.dynamicui.ExtractedColors;
 
 /**
  * Base class for a page indicator.

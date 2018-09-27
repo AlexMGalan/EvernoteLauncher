@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.ComponentName;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Process;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.PromiseAppInfo;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.PackageInstallerCompat.PackageInstallInfo;
-import com.android.launcher3.util.InstantAppResolver;
+import com.acacias.enlauncher.AllAppsList;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherModel.CallbackTask;
+import com.acacias.enlauncher.LauncherModel.Callbacks;
+import com.acacias.enlauncher.PromiseAppInfo;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.compat.PackageInstallerCompat;
+import com.acacias.enlauncher.compat.PackageInstallerCompat.PackageInstallInfo;
+import com.acacias.enlauncher.util.InstantAppResolver;
 
 import java.util.ArrayList;
 import java.util.HashSet;

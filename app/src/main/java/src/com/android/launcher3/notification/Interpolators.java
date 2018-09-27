@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.notification;
+package src.com.acacias.enlauncher.notification;
 
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;

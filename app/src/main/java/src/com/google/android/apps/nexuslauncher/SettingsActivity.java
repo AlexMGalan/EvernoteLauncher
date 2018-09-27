@@ -25,9 +25,9 @@ import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 
-public class SettingsActivity extends com.android.launcher3.SettingsActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
+public class SettingsActivity extends com.acacias.enlauncher.SettingsActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
     public final static String ICON_PACK_PREF = "pref_icon_pack";
     public final static String SHOW_PREDICTIONS_PREF = "pref_show_predictions";
     public final static String ENABLE_MINUS_ONE_PREF = "pref_enable_minus_one";
@@ -55,7 +55,7 @@ public class SettingsActivity extends com.android.launcher3.SettingsActivity imp
         return true;
     }
 
-    public static class MySettingsFragment extends com.android.launcher3.SettingsActivity.LauncherSettingsFragment
+    public static class MySettingsFragment extends com.acacias.enlauncher.SettingsActivity.LauncherSettingsFragment
             implements Preference.OnPreferenceChangeListener {
         private CustomIconPreference mIconPackPref;
         private Context mContext;

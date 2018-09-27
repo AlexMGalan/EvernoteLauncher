@@ -23,16 +23,16 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.dynamicui.WallpaperColorInfo;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.dynamicui.WallpaperColorInfo;
+import com.acacias.enlauncher.popup.PopupContainerWithArrow;
+import com.acacias.enlauncher.popup.SystemShortcut;
+import com.acacias.enlauncher.util.Themes;
 import com.google.android.apps.nexuslauncher.DynamicIconProvider;
 import com.google.android.apps.nexuslauncher.graphics.IcuDateTextView;
 

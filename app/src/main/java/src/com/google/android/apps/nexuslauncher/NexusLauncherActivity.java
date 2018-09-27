@@ -4,14 +4,14 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.WallpaperManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.ComponentKeyMapper;
-import com.android.launcher3.util.ViewOnDrawExecutor;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.WallpaperManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
+import com.acacias.enlauncher.util.ViewOnDrawExecutor;
 import com.google.android.libraries.gsa.launcherclient.LauncherClient;
 
 import java.util.List;

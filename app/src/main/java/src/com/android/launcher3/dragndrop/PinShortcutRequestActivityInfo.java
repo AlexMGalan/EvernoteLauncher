@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -27,14 +27,14 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Process;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.compat.LauncherAppsCompatVO;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
+import com.acacias.enlauncher.FastBitmapDrawable;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.compat.LauncherAppsCompatVO;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo;
 
 /**
  * Extension of ShortcutConfigActivityInfo to be used in the confirmation prompt for pin item
@@ -80,7 +80,7 @@ class PinShortcutRequestActivityInfo extends ShortcutConfigActivityInfo {
     }
 
     @Override
-    public com.android.launcher3.ShortcutInfo createShortcutInfo() {
+    public com.acacias.enlauncher.ShortcutInfo createShortcutInfo() {
         // Total duration for the drop animation to complete.
         long duration = mContext.getResources().getInteger(R.integer.config_dropAnimMaxDuration) +
                 Launcher.EXIT_SPRINGLOADED_MODE_SHORT_TIMEOUT +

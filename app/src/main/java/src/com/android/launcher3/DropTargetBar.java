@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.TimeInterpolator;
 import android.content.Context;
@@ -27,8 +27,8 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragOptions;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragOptions;
 
 /*
  * The top bar containing various drop targets: Delete/App Info/Uninstall.

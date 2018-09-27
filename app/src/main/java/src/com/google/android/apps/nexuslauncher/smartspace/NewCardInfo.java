@@ -10,8 +10,8 @@ import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.graphics.LauncherIcons;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.graphics.LauncherIcons;
 import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.*;
 
 public class NewCardInfo {

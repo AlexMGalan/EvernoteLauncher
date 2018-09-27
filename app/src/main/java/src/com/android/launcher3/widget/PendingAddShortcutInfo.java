@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
+import com.acacias.enlauncher.PendingAddItemInfo;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo;
 
 /**
  * Meta data used for late binding of the short cuts.

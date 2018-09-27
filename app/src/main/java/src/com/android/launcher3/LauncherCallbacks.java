@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
-import com.android.launcher3.util.ComponentKeyMapper;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

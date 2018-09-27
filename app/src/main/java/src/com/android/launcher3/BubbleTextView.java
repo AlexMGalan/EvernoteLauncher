@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -40,17 +40,17 @@ import android.view.ViewDebug;
 import android.view.ViewParent;
 import android.widget.TextView;
 
-import com.android.launcher3.IconCache.IconLoadRequest;
-import com.android.launcher3.IconCache.ItemInfoUpdateReceiver;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.folder.FolderIconPreviewVerifier;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.graphics.HolographicOutlineHelper;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.graphics.PreloadIconDrawable;
-import com.android.launcher3.model.PackageItemInfo;
+import com.acacias.enlauncher.IconCache.IconLoadRequest;
+import com.acacias.enlauncher.IconCache.ItemInfoUpdateReceiver;
+import com.acacias.enlauncher.badge.BadgeInfo;
+import com.acacias.enlauncher.badge.BadgeRenderer;
+import com.acacias.enlauncher.folder.FolderIcon;
+import com.acacias.enlauncher.folder.FolderIconPreviewVerifier;
+import com.acacias.enlauncher.graphics.DrawableFactory;
+import com.acacias.enlauncher.graphics.HolographicOutlineHelper;
+import com.acacias.enlauncher.graphics.IconPalette;
+import com.acacias.enlauncher.graphics.PreloadIconDrawable;
+import com.acacias.enlauncher.model.PackageItemInfo;
 
 import java.text.NumberFormat;
 

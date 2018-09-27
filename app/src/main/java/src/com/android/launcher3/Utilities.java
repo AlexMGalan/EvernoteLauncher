@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.app.WallpaperManager;
 import android.content.ComponentName;
@@ -50,7 +50,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 
-import com.android.launcher3.config.FeatureFlags;
+import com.acacias.enlauncher.config.FeatureFlags;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
@@ -108,7 +108,7 @@ public final class Utilities {
     public static final boolean IS_DEBUG_DEVICE = Build.TYPE.toLowerCase().contains("debug");
 
     // An intent extra to indicate the horizontal scroll of the wallpaper.
-    public static final String EXTRA_WALLPAPER_OFFSET = "com.android.launcher3.WALLPAPER_OFFSET";
+    public static final String EXTRA_WALLPAPER_OFFSET = "com.acacias.enlauncher.WALLPAPER_OFFSET";
 
     public static final int COLOR_EXTRACTION_JOB_ID = 1;
     public static final int WALLPAPER_COMPAT_JOB_ID = 2;

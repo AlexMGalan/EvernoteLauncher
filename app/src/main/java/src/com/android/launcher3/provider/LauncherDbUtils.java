@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.provider;
+package src.com.acacias.enlauncher.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -23,9 +23,9 @@ import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.LauncherSettings.WorkspaceScreens;
 
 import java.util.ArrayList;
 import java.util.Collection;

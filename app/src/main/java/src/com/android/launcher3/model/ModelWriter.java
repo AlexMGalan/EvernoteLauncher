@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
@@ -23,18 +23,18 @@ import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.Settings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.util.ContentWriter;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.LooperExecutor;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.LauncherProvider;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.LauncherSettings.Settings;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.util.ContentWriter;
+import com.acacias.enlauncher.util.ItemInfoMatcher;
+import com.acacias.enlauncher.util.LooperExecutor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

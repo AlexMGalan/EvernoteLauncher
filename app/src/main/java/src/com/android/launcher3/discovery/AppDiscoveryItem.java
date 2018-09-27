@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.discovery;
+package src.com.acacias.enlauncher.discovery;
 
 import android.content.Intent;
 import android.graphics.Bitmap;

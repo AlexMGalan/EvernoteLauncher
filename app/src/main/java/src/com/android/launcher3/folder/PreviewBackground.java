@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.folder;
+package src.com.acacias.enlauncher.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -34,11 +34,11 @@ import android.support.v4.graphics.ColorUtils;
 import android.util.Property;
 import android.view.View;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.util.Themes;
 
 /**
  * This object represents a FolderIcon preview background. It stores drawing / measurement

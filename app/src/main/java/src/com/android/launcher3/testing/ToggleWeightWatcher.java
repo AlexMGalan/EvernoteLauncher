@@ -1,14 +1,14 @@
-package src.com.android.launcher3.testing;
+package src.com.acacias.enlauncher.testing;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.TestingUtils;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.util.TestingUtils;
 
 public class ToggleWeightWatcher extends Activity {
 

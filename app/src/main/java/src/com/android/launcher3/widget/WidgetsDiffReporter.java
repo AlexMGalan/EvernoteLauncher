@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.widget;
+package src.com.acacias.enlauncher.widget;
 
 import android.util.Log;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.widget.WidgetsListAdapter.WidgetListRowEntryComparator;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.widget.WidgetsListAdapter.WidgetListRowEntryComparator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

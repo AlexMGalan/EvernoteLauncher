@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.widget.WidgetAddFlowHandler;
 
 /**
  * Utility class to store information regarding a pending request made by launcher. This information

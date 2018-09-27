@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.annotation.TargetApi;
 import android.graphics.Bitmap;
@@ -31,12 +31,12 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.Log;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.MainThreadExecutor;
-import com.android.launcher3.R;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.folder.PreviewBackground;
-import com.android.launcher3.util.Preconditions;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.MainThreadExecutor;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.folder.FolderIcon;
+import com.acacias.enlauncher.folder.PreviewBackground;
+import com.acacias.enlauncher.util.Preconditions;
 
 import java.util.concurrent.Callable;
 

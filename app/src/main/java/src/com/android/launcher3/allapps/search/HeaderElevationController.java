@@ -1,4 +1,4 @@
-package src.com.android.launcher3.allapps.search;
+package src.com.acacias.enlauncher.allapps.search;
 
 import android.content.res.Resources;
 import android.graphics.Outline;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewOutlineProvider;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.R;
+import com.acacias.enlauncher.BaseRecyclerView;
+import com.acacias.enlauncher.R;
 
 /**
  * Helper class for controlling the header elevation in response to RecyclerView scroll.

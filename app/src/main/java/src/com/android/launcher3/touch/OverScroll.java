@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.touch;
+package src.com.acacias.enlauncher.touch;
 
 /**
  * Utility methods for overscroll damping and related effect.

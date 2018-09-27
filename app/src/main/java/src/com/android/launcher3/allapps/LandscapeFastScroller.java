@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.android.launcher3.views.RecyclerViewFastScroller;
+import com.acacias.enlauncher.views.RecyclerViewFastScroller;
 
 /**
  * Extension of {@link RecyclerViewFastScroller} to be used in landscape layout.

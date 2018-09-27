@@ -14,15 +14,15 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.AllAppsRecyclerView;
-import com.android.launcher3.allapps.AlphabeticalAppsList;
-import com.android.launcher3.allapps.SearchUiManager;
-import com.android.launcher3.dynamicui.WallpaperColorInfo;
-import com.android.launcher3.util.Themes;
+import com.acacias.enlauncher.BaseRecyclerView;
+import com.acacias.enlauncher.CellLayout;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.allapps.AllAppsRecyclerView;
+import com.acacias.enlauncher.allapps.AlphabeticalAppsList;
+import com.acacias.enlauncher.allapps.SearchUiManager;
+import com.acacias.enlauncher.dynamicui.WallpaperColorInfo;
+import com.acacias.enlauncher.util.Themes;
 
 public class AllAppsQsbLayout extends AbstractQsbLayout implements SearchUiManager, WallpaperColorInfo.OnChangeListener {
     private AllAppsRecyclerView mRecyclerView;

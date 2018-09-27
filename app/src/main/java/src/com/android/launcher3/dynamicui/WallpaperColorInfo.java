@@ -1,13 +1,13 @@
-package src.com.android.launcher3.dynamicui;
+package src.com.acacias.enlauncher.dynamicui;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.support.v4.graphics.ColorUtils;
 import android.util.Pair;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.WallpaperColorsCompat;
-import com.android.launcher3.compat.WallpaperManagerCompat;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.WallpaperColorsCompat;
+import com.acacias.enlauncher.compat.WallpaperManagerCompat;
 
 import java.util.ArrayList;
 

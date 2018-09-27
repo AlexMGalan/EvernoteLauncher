@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
 
 import java.util.Collections;
 import java.util.List;

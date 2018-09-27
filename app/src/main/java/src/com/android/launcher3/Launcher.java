@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -81,64 +81,64 @@ import android.view.animation.OvershootInterpolator;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.Workspace.ItemOperator;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.LauncherAppsCompatVO;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.compat.WallpaperManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.dragndrop.PinItemDragListener;
-import com.android.launcher3.dynamicui.ExtractedColors;
-import com.android.launcher3.dynamicui.WallpaperColorInfo;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.keyboard.CustomActionsPopup;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.model.ModelWriter;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.pageindicators.PageIndicator;
-import com.android.launcher3.pageindicators.PageIndicatorCaretLandscape;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.popup.PopupDataProvider;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
-import com.android.launcher3.util.ActivityResultInfo;
-import com.android.launcher3.util.RunnableWithId;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ComponentKeyMapper;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.PendingRequestArgs;
-import com.android.launcher3.util.SystemUiController;
-import com.android.launcher3.util.TestingUtils;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.ViewOnDrawExecutor;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
-import com.android.launcher3.widget.WidgetHostViewLoader;
-import com.android.launcher3.widget.WidgetsContainerView;
+import com.acacias.enlauncher.DropTarget.DragObject;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.Workspace.ItemOperator;
+import com.acacias.enlauncher.accessibility.LauncherAccessibilityDelegate;
+import com.acacias.enlauncher.allapps.AllAppsContainerView;
+import com.acacias.enlauncher.allapps.AllAppsTransitionController;
+import com.acacias.enlauncher.anim.AnimationLayerSet;
+import com.acacias.enlauncher.compat.AppWidgetManagerCompat;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.LauncherAppsCompatVO;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.compat.WallpaperManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.dragndrop.DragView;
+import com.acacias.enlauncher.dragndrop.PinItemDragListener;
+import com.acacias.enlauncher.dynamicui.ExtractedColors;
+import com.acacias.enlauncher.dynamicui.WallpaperColorInfo;
+import com.acacias.enlauncher.folder.Folder;
+import com.acacias.enlauncher.folder.FolderIcon;
+import com.acacias.enlauncher.keyboard.CustomActionsPopup;
+import com.acacias.enlauncher.keyboard.ViewGroupFocusHelper;
+import com.acacias.enlauncher.logging.FileLog;
+import com.acacias.enlauncher.logging.UserEventDispatcher;
+import com.acacias.enlauncher.model.ModelWriter;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.notification.NotificationListener;
+import com.acacias.enlauncher.pageindicators.PageIndicator;
+import com.acacias.enlauncher.pageindicators.PageIndicatorCaretLandscape;
+import com.acacias.enlauncher.popup.PopupContainerWithArrow;
+import com.acacias.enlauncher.popup.PopupDataProvider;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Action;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ContainerType;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.ControlType;
+import com.acacias.enlauncher.util.ActivityResultInfo;
+import com.acacias.enlauncher.util.RunnableWithId;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
+import com.acacias.enlauncher.util.ItemInfoMatcher;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageManagerHelper;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.PendingRequestArgs;
+import com.acacias.enlauncher.util.SystemUiController;
+import com.acacias.enlauncher.util.TestingUtils;
+import com.acacias.enlauncher.util.Themes;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.util.ViewOnDrawExecutor;
+import com.acacias.enlauncher.widget.PendingAddShortcutInfo;
+import com.acacias.enlauncher.widget.PendingAddWidgetInfo;
+import com.acacias.enlauncher.widget.WidgetAddFlowHandler;
+import com.acacias.enlauncher.widget.WidgetHostViewLoader;
+import com.acacias.enlauncher.widget.WidgetsContainerView;
 
 
 import java.io.FileDescriptor;
@@ -151,8 +151,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.Executor;
 
-import static com.android.launcher3.util.RunnableWithId.RUNNABLE_ID_BIND_APPS;
-import static com.android.launcher3.util.RunnableWithId.RUNNABLE_ID_BIND_WIDGETS;
+import static com.acacias.enlauncher.util.RunnableWithId.RUNNABLE_ID_BIND_APPS;
+import static com.acacias.enlauncher.util.RunnableWithId.RUNNABLE_ID_BIND_WIDGETS;
 
 /**
  * Default launcher application.
@@ -196,7 +196,7 @@ public class Launcher extends BaseActivity
 
     // The Intent extra that defines whether to ignore the launch animation
     static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
-            "com.android.launcher3.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
+            "com.acacias.enlauncher.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
 
     // Type: int
     private static final String RUNTIME_STATE_CURRENT_SCREEN = "launcher.current_screen";
@@ -3932,7 +3932,7 @@ public class Launcher extends BaseActivity
     }
 
     /**
-     * $ adb shell dumpsys activity com.android.launcher3.Launcher [--all]
+     * $ adb shell dumpsys activity com.acacias.enlauncher.Launcher [--all]
      */
     @Override
     public void dump(String prefix, FileDescriptor fd, PrintWriter writer, String[] args) {

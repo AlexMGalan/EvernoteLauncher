@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.content.Context;
 import android.content.Intent;
@@ -34,17 +34,17 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.TextView;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.AlphabeticalAppsList.AdapterItem;
-import com.android.launcher3.anim.SpringAnimationHandler;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.discovery.AppDiscoveryAppInfo;
-import com.android.launcher3.discovery.AppDiscoveryItemView;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.allapps.AlphabeticalAppsList.AdapterItem;
+import com.acacias.enlauncher.anim.SpringAnimationHandler;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.discovery.AppDiscoveryAppInfo;
+import com.acacias.enlauncher.discovery.AppDiscoveryItemView;
+import com.acacias.enlauncher.util.PackageManagerHelper;
 
 import java.util.List;
 

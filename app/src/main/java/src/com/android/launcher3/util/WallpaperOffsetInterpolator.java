@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.app.WallpaperManager;
 import android.os.IBinder;
@@ -7,8 +7,8 @@ import android.view.Choreographer;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.Workspace;
 
 /**
  * Utility class to handle wallpaper scrolling along with workspace.

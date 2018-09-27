@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.popup;
+package src.com.acacias.enlauncher.popup;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -23,20 +23,20 @@ import android.service.notification.StatusBarNotification;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.notification.NotificationInfo;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.DeepShortcutManagerBackport;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.badge.BadgeInfo;
+import com.acacias.enlauncher.notification.NotificationInfo;
+import com.acacias.enlauncher.notification.NotificationKeyData;
+import com.acacias.enlauncher.notification.NotificationListener;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManagerBackport;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Collections;

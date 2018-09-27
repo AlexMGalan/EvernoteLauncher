@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.logging;
+package src.com.acacias.enlauncher.logging;
 
 import android.os.Process;
 import android.text.TextUtils;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.model.nano.LauncherDumpProto;
-import com.android.launcher3.model.nano.LauncherDumpProto.ContainerType;
-import com.android.launcher3.model.nano.LauncherDumpProto.DumpTarget;
-import com.android.launcher3.model.nano.LauncherDumpProto.ItemType;
-import com.android.launcher3.model.nano.LauncherDumpProto.UserType;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto.ContainerType;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto.DumpTarget;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto.ItemType;
+import com.acacias.enlauncher.model.nano.LauncherDumpProto.UserType;
 
 import java.util.ArrayList;
 import java.util.List;

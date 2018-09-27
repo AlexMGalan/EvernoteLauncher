@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps.search;
+package src.com.acacias.enlauncher.allapps.search;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -21,13 +21,13 @@ import android.content.pm.LauncherActivityInfo;
 import android.os.Handler;
 import android.os.UserHandle;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.util.ComponentKey;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.util.ComponentKey;
 
 import java.text.Collator;
 import java.text.Normalizer;

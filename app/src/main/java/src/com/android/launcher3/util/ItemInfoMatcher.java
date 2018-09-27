@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.content.ComponentName;
 import android.os.UserHandle;
 import android.util.SparseLongArray;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.shortcuts.ShortcutKey;
+import com.acacias.enlauncher.FolderInfo;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.shortcuts.ShortcutKey;
 
 import java.util.HashSet;
 

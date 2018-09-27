@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.annotation.TargetApi;
 import android.content.ComponentName;
@@ -26,11 +26,11 @@ import android.os.UserHandle;
 /**
  * Wrapper class for {@link android.content.pm.ShortcutInfo}, representing deep shortcuts into apps.
  *
- * Not to be confused with {@link com.android.launcher3.ShortcutInfo}.
+ * Not to be confused with {@link com.acacias.enlauncher.ShortcutInfo}.
  */
 @TargetApi(Build.VERSION_CODES.N)
 public class ShortcutInfoCompat {
-    private static final String INTENT_CATEGORY = "com.android.launcher3.DEEP_SHORTCUT";
+    private static final String INTENT_CATEGORY = "com.acacias.enlauncher.DEEP_SHORTCUT";
     public static final String EXTRA_SHORTCUT_ID = "shortcut_id";
 
     private ShortcutInfo mShortcutInfo;

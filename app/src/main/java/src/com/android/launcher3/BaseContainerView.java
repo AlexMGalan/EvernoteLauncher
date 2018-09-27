@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -30,9 +30,9 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.TransformingTouchDelegate;
+import com.acacias.enlauncher.allapps.AllAppsContainerView;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.TransformingTouchDelegate;
 
 /**
  * A base container view, which supports resizing.

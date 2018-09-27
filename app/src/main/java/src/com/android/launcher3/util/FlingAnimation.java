@@ -1,4 +1,4 @@
-package src.com.android.launcher3.util;
+package src.com.acacias.enlauncher.util;
 
 import android.animation.TimeInterpolator;
 import android.animation.ValueAnimator;
@@ -8,11 +8,11 @@ import android.graphics.Rect;
 import android.view.animation.AnimationUtils;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragView;
+import com.acacias.enlauncher.ButtonDropTarget;
+import com.acacias.enlauncher.DropTarget.DragObject;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.dragndrop.DragLayer;
+import com.acacias.enlauncher.dragndrop.DragView;
 
 public class FlingAnimation implements AnimatorUpdateListener, Runnable {
 

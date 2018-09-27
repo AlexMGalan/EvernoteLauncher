@@ -1,5 +1,5 @@
 
-package src.com.android.launcher3.model;
+package src.com.acacias.enlauncher.model;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
@@ -9,19 +9,19 @@ import android.os.UserHandle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.android.launcher3.AppFilter;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Preconditions;
+import com.acacias.enlauncher.AppFilter;
+import com.acacias.enlauncher.IconCache;
+import com.acacias.enlauncher.InvariantDeviceProfile;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherAppWidgetProviderInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.compat.AppWidgetManagerCompat;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.ShortcutConfigActivityInfo;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.Preconditions;
 
 import java.util.ArrayList;
 import java.util.HashMap;

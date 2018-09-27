@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.notification;
+package src.com.acacias.enlauncher.notification;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,13 +31,13 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.anim.PropertyResetListener;
-import com.android.launcher3.popup.PopupContainerWithArrow;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAnimUtils;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.anim.PropertyListBuilder;
+import com.acacias.enlauncher.anim.PropertyResetListener;
+import com.acacias.enlauncher.popup.PopupContainerWithArrow;
 
 import java.util.ArrayList;
 import java.util.Iterator;

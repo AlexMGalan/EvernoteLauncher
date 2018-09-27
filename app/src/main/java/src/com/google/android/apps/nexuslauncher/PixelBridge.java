@@ -5,7 +5,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 import com.google.android.libraries.gsa.launcherclient.LauncherClient;
 
 public class PixelBridge {

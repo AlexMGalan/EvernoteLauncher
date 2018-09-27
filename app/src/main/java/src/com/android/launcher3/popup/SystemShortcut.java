@@ -1,4 +1,4 @@
-package src.com.android.launcher3.popup;
+package src.com.acacias.enlauncher.popup;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -6,19 +6,19 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.InfoDropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.InfoDropTarget;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.widget.WidgetsBottomSheet;
 
 import java.util.List;
 
-import static com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
+import static com.acacias.enlauncher.userevent.nano.LauncherLogProto.Action;
+import static com.acacias.enlauncher.userevent.nano.LauncherLogProto.ControlType;
 
 /**
  * Represents a system shortcut for a given app. The shortcut should have a static label and

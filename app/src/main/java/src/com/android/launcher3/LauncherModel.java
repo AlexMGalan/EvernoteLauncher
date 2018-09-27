@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -34,35 +34,35 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PackageInstallerCompat.PackageInstallInfo;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.dynamicui.ExtractionUtils;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.model.AddWorkspaceItemsTask;
-import com.android.launcher3.model.BgDataModel;
-import com.android.launcher3.model.CacheDataUpdatedTask;
-import com.android.launcher3.model.BaseModelUpdateTask;
-import com.android.launcher3.model.LoaderResults;
-import com.android.launcher3.model.LoaderTask;
-import com.android.launcher3.model.ModelWriter;
-import com.android.launcher3.model.PackageInstallStateChangedTask;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.PackageUpdatedTask;
-import com.android.launcher3.model.ShortcutsChangedTask;
-import com.android.launcher3.model.UserLockStateChangedTask;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.provider.LauncherDbUtils;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.ViewOnDrawExecutor;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.PackageInstallerCompat.PackageInstallInfo;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.dynamicui.ExtractionUtils;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.model.AddWorkspaceItemsTask;
+import com.acacias.enlauncher.model.BgDataModel;
+import com.acacias.enlauncher.model.CacheDataUpdatedTask;
+import com.acacias.enlauncher.model.BaseModelUpdateTask;
+import com.acacias.enlauncher.model.LoaderResults;
+import com.acacias.enlauncher.model.LoaderTask;
+import com.acacias.enlauncher.model.ModelWriter;
+import com.acacias.enlauncher.model.PackageInstallStateChangedTask;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.model.PackageUpdatedTask;
+import com.acacias.enlauncher.model.ShortcutsChangedTask;
+import com.acacias.enlauncher.model.UserLockStateChangedTask;
+import com.acacias.enlauncher.model.WidgetItem;
+import com.acacias.enlauncher.provider.LauncherDbUtils;
+import com.acacias.enlauncher.shortcuts.DeepShortcutManager;
+import com.acacias.enlauncher.shortcuts.ShortcutInfoCompat;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ItemInfoMatcher;
+import com.acacias.enlauncher.util.MultiHashMap;
+import com.acacias.enlauncher.util.PackageUserKey;
+import com.acacias.enlauncher.util.Preconditions;
+import com.acacias.enlauncher.util.Provider;
+import com.acacias.enlauncher.util.Thunk;
+import com.acacias.enlauncher.util.ViewOnDrawExecutor;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

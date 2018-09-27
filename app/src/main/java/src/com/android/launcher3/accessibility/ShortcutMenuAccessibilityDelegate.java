@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.accessibility;
+package src.com.acacias.enlauncher.accessibility;
 
 import android.view.View;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.notification.NotificationMainView;
-import com.android.launcher3.shortcuts.DeepShortcutView;
+import com.acacias.enlauncher.AbstractFloatingView;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherSettings;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.notification.NotificationMainView;
+import com.acacias.enlauncher.shortcuts.DeepShortcutView;
 
 import java.util.ArrayList;
 

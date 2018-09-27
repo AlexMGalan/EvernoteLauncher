@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3;
+package src.com.acacias.enlauncher;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -41,17 +41,17 @@ import android.os.UserHandle;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.InstantAppResolver;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.SQLiteCacheHelper;
-import com.android.launcher3.util.Thunk;
+import com.acacias.enlauncher.compat.LauncherAppsCompat;
+import com.acacias.enlauncher.compat.UserManagerCompat;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.LauncherIcons;
+import com.acacias.enlauncher.model.PackageItemInfo;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.InstantAppResolver;
+import com.acacias.enlauncher.util.Preconditions;
+import com.acacias.enlauncher.util.Provider;
+import com.acacias.enlauncher.util.SQLiteCacheHelper;
+import com.acacias.enlauncher.util.Thunk;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;

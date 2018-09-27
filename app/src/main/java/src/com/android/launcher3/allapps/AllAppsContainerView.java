@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package src.com.android.launcher3.allapps;
+package src.com.acacias.enlauncher.allapps;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -29,29 +29,29 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BaseContainerView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.PromiseAppInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.SpringAnimationHandler;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.keyboard.FocusedItemDecorator;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ComponentKeyMapper;
-import com.android.launcher3.util.PackageUserKey;
+import com.acacias.enlauncher.AppInfo;
+import com.acacias.enlauncher.BaseContainerView;
+import com.acacias.enlauncher.BubbleTextView;
+import com.acacias.enlauncher.DeleteDropTarget;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.DragSource;
+import com.acacias.enlauncher.DropTarget;
+import com.acacias.enlauncher.Insettable;
+import com.acacias.enlauncher.ItemInfo;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.PromiseAppInfo;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.anim.SpringAnimationHandler;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.dragndrop.DragController;
+import com.acacias.enlauncher.dragndrop.DragOptions;
+import com.acacias.enlauncher.folder.Folder;
+import com.acacias.enlauncher.keyboard.FocusedItemDecorator;
+import com.acacias.enlauncher.userevent.nano.LauncherLogProto.Target;
+import com.acacias.enlauncher.util.ComponentKey;
+import com.acacias.enlauncher.util.ComponentKeyMapper;
+import com.acacias.enlauncher.util.PackageUserKey;
 
 import java.util.List;
 import java.util.Set;

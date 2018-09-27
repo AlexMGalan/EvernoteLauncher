@@ -19,13 +19,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DeviceProfile.LauncherLayoutChangeListener;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.graphics.ShadowGenerator.Builder;
+import com.acacias.enlauncher.DeviceProfile;
+import com.acacias.enlauncher.DeviceProfile.LauncherLayoutChangeListener;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.graphics.ShadowGenerator.Builder;
 import com.google.android.apps.nexuslauncher.NexusLauncherActivity;
 
 public abstract class AbstractQsbLayout extends FrameLayout implements LauncherLayoutChangeListener, OnClickListener, OnSharedPreferenceChangeListener {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.shortcuts;
+package src.com.acacias.enlauncher.shortcuts;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.net.Uri;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.R;
+import com.acacias.enlauncher.R;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

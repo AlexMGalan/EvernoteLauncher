@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.anim;
+package src.com.acacias.enlauncher.anim;
 
 public class CircleRevealOutlineProvider extends RevealOutlineAnimation {
 

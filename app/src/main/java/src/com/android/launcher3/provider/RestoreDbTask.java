@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.provider;
+package src.com.acacias.enlauncher.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherProvider.DatabaseHelper;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.provider.LauncherDbUtils.SQLiteTransaction;
-import com.android.launcher3.util.LogConfig;
+import com.acacias.enlauncher.LauncherAppWidgetInfo;
+import com.acacias.enlauncher.LauncherProvider.DatabaseHelper;
+import com.acacias.enlauncher.LauncherSettings.Favorites;
+import com.acacias.enlauncher.ShortcutInfo;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.logging.FileLog;
+import com.acacias.enlauncher.provider.LauncherDbUtils.SQLiteTransaction;
+import com.acacias.enlauncher.util.LogConfig;
 
 import java.io.InvalidObjectException;
 

@@ -14,13 +14,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.MainThreadExecutor;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.IconNormalizer;
-import com.android.launcher3.util.Preconditions;
+import com.acacias.enlauncher.LauncherAppState;
+import com.acacias.enlauncher.LauncherModel;
+import com.acacias.enlauncher.MainThreadExecutor;
+import com.acacias.enlauncher.Utilities;
+import com.acacias.enlauncher.config.FeatureFlags;
+import com.acacias.enlauncher.graphics.IconNormalizer;
+import com.acacias.enlauncher.util.Preconditions;
 import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
 
 import java.util.Collections;

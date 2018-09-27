@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package src.com.android.launcher3.dragndrop;
+package src.com.acacias.enlauncher.dragndrop;
 
 import android.content.ClipDescription;
 import android.content.Intent;
@@ -28,13 +28,13 @@ import android.util.Log;
 import android.view.DragEvent;
 import android.view.View;
 
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.widget.PendingItemDragHelper;
+import com.acacias.enlauncher.DeleteDropTarget;
+import com.acacias.enlauncher.DragSource;
+import com.acacias.enlauncher.DropTarget;
+import com.acacias.enlauncher.Launcher;
+import com.acacias.enlauncher.R;
+import com.acacias.enlauncher.folder.Folder;
+import com.acacias.enlauncher.widget.PendingItemDragHelper;
 
 import java.util.UUID;
 
@@ -46,7 +46,7 @@ public abstract class BaseItemDragListener implements
 
     private static final String TAG = "BaseItemDragListener";
 
-    private static final String MIME_TYPE_PREFIX = "com.android.launcher3.drag_and_drop/";
+    private static final String MIME_TYPE_PREFIX = "com.acacias.enlauncher.drag_and_drop/";
     public static final String EXTRA_PIN_ITEM_DRAG_LISTENER = "pin_item_drag_listener";
 
     // Position of preview relative to the touch location
